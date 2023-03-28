@@ -1,0 +1,49 @@
+  <div class="row" id="main_content">
+    <div class="col-md-12" >
+      <div class="panel panel-primary">
+	<div class="panel-heading">
+          <h3 class="panel-title">Estado de Avance de las Zonas</h3>
+	</div>
+	<div class="panel-body">
+
+					<p id="filtervendenv" style="margin:10px">Filtrar:
+						<select id="filterestado">
+							<option value="">Todos los pedidos</option>
+							<option value="c">Sólo pedidos en carga</option>
+							<option value="e">Sólo pedidos enviados</option>
+						</select>
+						<select id="filteraccion">
+							<option value="">Todas las acciones</option>
+							<option value="CARGANDO">Cargando</option>
+							<option value="AUTORIZADO">Autorizado</option>
+							<option value="RECHAZADO">Rechazado</option>
+							<option value="CERRADO">Cerrado</option>
+							<option value="ENVIADO">Enviado</option>
+						</select>
+						<input id="filtercamp" placeholder="Campaña" size="11" />
+						<input id="filterregion" placeholder="Región" size="4" />
+						<input id="filterzone" placeholder="Zona" size="4" />
+						<input id="filteremp" placeholder="Empresaria" size="11" />
+
+						<a href="Javascript:;">Filtrar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="Javascript:;" id="showall">Mostrar todos</a>
+					</p>
+					<table class="table table-bordered table-hover" id="ListaZonas" style="font-size:.8em">
+						<tr>
+							<th id="o1" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.avancesZonas.orderBy(1)">Estado</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+							<th id="o2" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.avancesZonas.orderBy(2)">Campaña</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+							<th id="o6" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.avancesZonas.orderBy(6)">Región</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+							<th id="o3" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.avancesZonas.orderBy(3)">Zona</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+							<th id="o4" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.avancesZonas.orderBy(4)">Empresaria</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+							<th id="o5" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.avancesZonas.orderBy(5)">Acción</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+							<th>Fecha</th>
+							<th>Pedidos</th>
+							<th>Unidades</th>
+							<th>Monto</th>
+						</tr>
+						<tbody id="ListaPedidosBody"></tbody>
+					 </table>
+
+      </div>
+    </div>
+  </div>

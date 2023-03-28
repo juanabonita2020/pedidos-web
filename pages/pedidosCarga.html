@@ -1,0 +1,303 @@
+
+	<!-- BLOQUE PRINCIPAL -->
+	<div class="row" id="main_content">
+
+
+	<!-- visible si es empresaria -->
+		<div class="panel panel-primary" id="nombrevendedora_env">
+		  <div class="panel-heading"><h4>Datos de la Vendedora</h4></div>
+		  <div class="panel-body">
+			<p>Seleccione primero una vendedora y una campaña para crear el pedido.</p>
+
+			<div class="form-inline" role="form">
+			  <div class="form-group col-md-7">
+				<label for="nombrevendedora">Vendedora</label>
+				<input type="text" class="form-control" id="nombrevendedora" placeholder="Nombre">
+				<span id="nombrevendedora_help" class="help-block text-center">Elige el nombre de la vendedora a quien le deseas cargar un pedido.</span>
+			  </div>
+			  <div class="form-group col-md-5" id="campania_env">
+					<div class="row">
+						<div class="form-group col-md-7">
+							<select class="form-control text-center" id="campania">
+								  <option>--</option>
+							</select>
+						</div>
+						<div class="form-group col-md-5">
+							<button type="button" class="btn btn-success" id="chgOrderBtn">Cargar otro pedido</button>
+						</div>
+					</div>
+					<div>
+						<span id="campania_help" class="help-block">Elige la campaña a la cual corresponde este pedido.</span>
+					</div>
+			  </div>
+			</div>
+
+
+		  </div>
+		</div>
+
+		<div class="panel panel-primary" id="ABM_premios">
+		  <div class="panel-heading">
+			<h3 class="panel-title">Programa de Premios: Elección de talles</h3>
+		  </div>
+		  <div class="panel-body">
+				<div class="row">
+					<div class="col-md-2 ">
+						<label>Soutien</label>
+						<input type="text" class="form-control" id="soutien">
+					</div>
+					<div class="col-md-2 ">
+						<label>Bombacha</label>
+						<input type="text" class="form-control" id="bombacha">
+					</div>
+					<div class="col-md-2 ">
+						<label>Inferior</label>
+						<input type="text" class="form-control" id="inferior">
+					</div>
+					<div class="col-md-2 ">
+						<label>Superior</label>
+						<input type="text" class="form-control" id="superior">
+					</div>
+					<div class="col-md-2 ">
+						<label>Jean</label>
+						<input type="text" class="form-control" id="jean">
+					</div>
+				</div>
+		  </div>
+		</div>
+
+		<div class="panel panel-primary" id="ABM_premios_new">
+		<div class="panel-heading">
+			<h3 class="panel-title">Programa de Premios: Elección de talles</h3>
+		  </div>
+		  <div class="panel-body" id="ABM_premios_new_bdy">
+		  </div>
+		</div>
+		
+		<div class="panel panel-primary" id="ABM_premios_inc">
+		<div class="panel-heading">
+			<h3 class="panel-title">Programa de Premios (incentivo): Elección de talles</h3>
+		  </div>
+		  <div class="panel-body" id="ABM_premios_inc_bdy"></div>
+		</div>
+
+		<div class="panel panel-primary" id="ABM_conData">
+		  <div class="panel-heading">
+			<h3 class="panel-title">Ingrese sus datos:</h3>
+		  </div>
+		  <div class="panel-body">
+				<div class="row">
+					<div class="col-md-3 ">
+						<input type="text" class="form-control" placeholder="E-mail" id="conMail">
+					</div>
+					<div class="col-md-3 ">
+						<input type="text" class="form-control" placeholder="Nombre" id="conNombre">
+					</div>
+					<div class="col-md-3 ">
+						<input type="text" class="form-control" placeholder="DNI" id="conDNI">
+					</div>
+					<div class="col-md-3 ">
+						<input type="text" class="form-control" placeholder="Teléfono" id="conTel">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-primary" id="ABM_limites" style="border:none;box-shadow:none;margin-bottom:0">
+		  <div class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="alert alert-danger" role="alert" id="ABM_limites_lbl">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-primary" id="ABM_item">
+		  <div class="panel-heading">
+			<h3 class="panel-title">Carga tu pedido:</h3>
+		  </div>
+		  <div class="panel-body">
+				<div class="row">
+					<div class="col-md-2 ">
+						<input type="text" class="form-control" placeholder="Código" id="addCode" maxlength="4">
+					</div>
+					<div class="col-md-2 ">
+						<input type="text" class="form-control" placeholder="Tipo" id="addType" disabled="disabled">
+					</div>
+					<div class="col-md-2 ">
+						<input type="text" class="form-control" placeholder="Color" id="addColor" disabled="disabled">
+					</div>
+					<div class="col-md-2 ">
+						<input type="text" class="form-control" placeholder="Talle" id="addTall" disabled="disabled">
+					</div>
+					<div class="col-md-2 ">
+						<input type="text" class="form-control" placeholder="Cantidad" id="addQ">
+					</div>
+					<div class="col-md-1 ">
+						<button type="button" class="btn btn-success" id="addBtn" disabled="disabled" data-toggle="tooltip" data-placement="left" title="Agregar ítem"><span class="glyphicon glyphicon-plus"></span></button>
+					</div>
+					<div class="col-md-1 ">
+						<button type="button" class="btn" id="clearBtn" data-toggle="tooltip" data-placement="left" title="Limpiar datos"><span class="glyphicon glyphicon-ban-circle"></span></button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12" id="ayuda_container">
+						<a href="JavaScript:;" id="boton_ayuda">Ayuda</a>
+						<div id="AyudaCargaItem" class="alert alert-warning alert-dismissible" role="alert">
+						  <button id="boton_ayuda_close" type="button" class="close" ><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						  <h4>Ayuda:</h4>
+						  <p><strong>Recuerda:</strong></p>
+						  <p>El código debe tener 4 digitos. Si el código del articulo tiene 3 dígitos ingresar primero un cero. Por ejemplo: 953 boxer debe ser ingresado: 0953 Boxer.
+						  Lo mismo para las tipologias y colores. Ejemplo: 1 Blanco, es 01 Blanco.</p>
+						</div>
+
+					</div>
+				</div>
+		  </div>
+		</div>
+
+		<p id="goShop_env"><button type="button" class="btn btn-success" id="goShop">Seguir comprando</button></p>
+
+		<!-- Muestra el pedido Cargado hasta ahora -->
+		<div class="panel panel-primary" id="PanelDetallePedido">
+			  <div class="panel-heading">
+				<h3 class="panel-title" id="PanelDetallePedidoTitle"></h3>
+			  </div>
+			    <table class="table table-bordered table-hover text-center table-condensed" id="DetallePedido">
+					<tr >
+						<th class="text-center">Código</th>
+						<th class="text-center">Tipo</th>
+						<th class="text-center">Color</th>
+						<th class="text-center">Talle</th>
+						<th class="text-center">Descripción</th>
+						<th class="text-center">Cantidad</th>
+						<th class="text-center" id="DetallePedido_x">Puntos</th>
+						<!--<th class="text-center" id="DetallePedido_p">Precio</th>
+						<th class="text-center" id="DetallePedido_s">Subtotal</th>-->
+						<th class="text-center cuotas">Cuotas</th>
+						<th class="text-center">Promoción</th>
+						<th id="DetallePedido_m" class="text-center">Muestrario</th>
+						<th class="text-center">Acciones</th>
+					</tr>
+				<tbody id="DetallePedidoBody"></tbody>
+				<!--<tfoot id="DetallePedidoFoot"><tr>
+					<td colspan="5" align="right">Total:</td>
+					<td id="DetallePedidoTotQ"></td>
+					<td id="DetallePedidoTotP"></td>
+					<td>&nbsp;</td>
+					<td id="DetallePedidoTot"></td>
+					<td id="DetallePedidoTotM"></td>
+					<td colspan="3">&nbsp;</td>
+				</tr></tfoot>-->
+				</table>
+				<p id="DetallePedidoEmpty">Aún no has cargado ningún artículo.</p>
+		</div>
+		
+		<div class="panel panel-primary" id="ABM_premios_multiple">
+		<div class="panel-heading">
+			<h3 class="panel-title">Programa de Premios</h3>
+		  </div>
+		  <div class="panel-body">
+			<p>Llenar esta sección una vez terminado de cargar el pedido en su <b>totalidad</b>.</p>
+			<div id="ABM_premios_multiple_bdy">
+			</div>
+		  </div>
+		</div>
+		
+	</div>
+
+<p align="center"><button type="button" class="btn btn-success" id="createBtn">Guardar pedido</button></p>
+
+
+
+<!--------------------------------------------------------------------------------------	NUEVO	------------------------------------------------------------------------------------------>
+
+<div id="modal" class="modal modal-resp" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header fondo-rosa">
+                <h4 class="panel panel-primary fondo-rosa letras-blancas">Promoción</h4>
+            </div>
+            <div class="modal-body">
+                <div class="message"></div>
+                <label><strong>El artículo seleccionado forma parte de una promoción, ¿Desea cargar el resto de la promoción?<br/><br/></strong></label>
+                <form id="frmBoton">
+                    <div class="form-group">
+                        <label>Elija la Promoción</label>
+                        <select name="promocion" id="promocion" class="form-control texto-formulario">  
+                        </select>
+                    </div>
+              	</form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="btnCerrarModal" >Cerrar</button>
+                <button form="frmBoton"  class="btn btn-primary" id="btnAceptarModal"  >Aceptar</button>
+			</div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<div id="modalPromocion" class="modal modal-resp" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header fondo-rosa" id="titulo">
+                <h4 class="panel panel-primary fondo-rosa letras-blancas">Carga los artículos de la Promoción</h4>
+            </div>
+            <div class="modal-body modal-scroll-fix">
+                <form id="frmPromocion">
+              	</form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="btnCerrarModalPromocion"  >Cerrar</button>
+                <button form="frmPromocion"  class="btn btn-primary" id="btnAceptarModalPromocion" >Aceptar</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="modalAlerta" class="modal modal-resp" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header fondo-rosa" id="titulo">
+                <h4 class="panel panel-primary fondo-rosa letras-blancas">Alerta</h4>
+            </div>
+            <div class="modal-body" id="panelMensaje">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="btnAceptarModalAlerta">Aceptar</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<style type="text/css">
+	.modal-resp{
+		width: 99%;
+		position: absolute;
+		top: 10%;
+	}
+	.modal-scroll-fix{
+		height: 250px;
+		overflow-y: scroll;
+	}
+	.fondo-rosa{
+		background-color: mediumvioletred;
+	}
+	.letras-blancas{
+		color: #ffffff;
+	}
+	.texto-formulario{
+		width: 100%; 
+		display: block; 
+		height: 30px; 
+		text-align: center;
+	}
+</style>
+
+
+

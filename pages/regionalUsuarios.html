@@ -1,0 +1,38 @@
+  <div class="row" id="main_content">
+    <div class="col-md-12" >
+      <div class="panel panel-primary">
+	<div class="panel-heading">
+          <h3 class="panel-title">Listado de Usuarios Registrados</h3>
+	</div>
+	<div class="panel-body">
+
+					<p id="filtervendenv" style="margin:10px">Filtrar:
+						<input id="filterregion" placeholder="Región" />
+						<input id="filterzone" placeholder="Zona" />
+						<input id="filtercliente" placeholder="Nro. cliente" />
+						<input id="filternombre" placeholder="Nombre" />
+						<select id="filterbloq">
+							<option value="0">Todos</option>
+							<option value="1">Sólo bloqueados</option>
+						</select>
+						<a href="Javascript:;">Filtrar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="Javascript:;" id="showall">Mostrar todos</a>
+					</p>
+					<table class="table table-bordered table-hover" id="ListaUsuarios" style="font-size:.8em">
+						<tr>
+							<th>Tipo</th>
+							<th id="colreg">Región</th>
+							<th>Zona</th>
+							<th>Nro. cliente</th>
+							<th>Nombre</th>
+							<th>E-mail</th>
+							<th>Habilitada</th>
+							<th>Ult. ingreso</th>
+							<th>Bloqueado</th>
+						</tr>
+						<tbody id="ListaPedidosBody"></tbody>
+					 </table>
+
+      </div>
+    </div>
+  </div>

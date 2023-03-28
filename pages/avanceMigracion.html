@@ -1,0 +1,41 @@
+  <div class="row" id="main_content">
+    <div class="col-md-12" >
+      <div class="panel panel-primary">
+	<div class="panel-heading">
+          <h3 class="panel-title">Avance de Migración de Pedidos Web</h3>
+	</div>
+	<div class="panel-body">
+
+					<p id="filtervendenv" style="margin:10px">Filtrar:
+						<input id="filterregion" placeholder="Región" />
+						<select id="filterestado">
+							<option value="">Todos los pedidos</option>
+							<option value="F">Falta migrar</option>
+							<option value="M">Migrada</option>
+							<option value="N">No usaba Pedidos Web</option>
+							<option value="I">Inicio con sistema nuevo</option>
+							<!--<option value="S">Sin definir</option>-->
+						</select>
+						<!--<input id="filter1" type="checkbox" /> Falta migrar-->
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="Javascript:;">Filtrar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="Javascript:;" id="showall">Mostrar todos</a>
+					</p>
+					<table class="table table-bordered table-hover" id="ListaEstados" style="font-size:.8em">
+						<tr>
+							<th id="colreg">Región</th>
+							<th>Zona</th>
+							<th>Nombre</th>
+							<th>E-mail</th>
+							<th>DNI</th>
+							<th>Estado</th>
+							<th>Ult. campaña</th>
+							<th>Pedidos por líder</th>
+							<th>Pedidos por vendedoras</th>
+						</tr>
+						<tbody id="ListaPedidosBody"></tbody>
+					 </table>
+
+      </div>
+    </div>
+  </div>

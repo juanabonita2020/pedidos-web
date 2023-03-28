@@ -1,0 +1,350 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+    /* Margin bottom by footer height */
+  margin-bottom: 110px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 10px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  
+   position: absolute;
+  bottom: 0;
+   width: 100%; 
+  /* Set the fixed height of the footer here */
+  height: 110px;
+  background-color: #f5f5f5;
+}
+
+/* Customize container */
+/*  originalmente era asi */
+/*
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }  
+} */
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 992px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+/* Aca empiezan styles por Creaciones Americanas SRL */
+.nav-pills > li.active > a.colorjb{
+  color: #fff;
+   background-color: #ec45c7;  
+   /* background-color: #ec45c7;    */  
+}
+#cerrarSesion {
+/* display:none;*/
+}
+
+
+.CustomButton1 { /* boton de continuar/finalizar/etc - ancho custom */
+width:300px; 
+margin:0px auto;
+}
+/*
+.nav-pills > li.active > a #cerrarSesion{
+  color: #fff;
+   background-color: #000;  
+  
+}
+*/
+.red {
+background-color:#f00;
+color: #fff;
+}
+
+
+
+
+/* Panel Custom : RED */
+.panel-red {
+  border-color: #fe6d70;
+}
+.panel-red > .panel-heading {
+  color: #fff;
+  background-color: #fe6d70;
+  border-color: #fe6d70;
+}
+.panel-red > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #fe6d70;
+}
+.panel-red > .panel-heading .badge {
+  color: #fe6d70;
+  background-color: #fff;
+}
+.panel-red > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #fe6d70;
+}
+
+
+/* primary anterior:   #85b3e7;  */
+/* Panel Custom : sobreescribe primary */
+.panel-primary {
+  border-color: rgb(230,0,125);
+}
+/* color original primary: #fe6d70 */
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color:  rgb(230,0,125);
+  border-color:  rgb(230,0,125);
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color:  rgb(230,0,125);
+}
+.panel-primary > .panel-heading .badge {
+  color:  rgb(230,0,125);
+  background-color: #fff;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color:  rgb(230,0,125);
+}
+
+
+/* Panel Custom : sobreescribe primary */
+.panel-info {
+  border-color: rgb(230,123,181);
+}
+/* color original primary: #fe6d70 */
+.panel-info > .panel-heading {
+  color: #fff;
+  background-color:  rgb(230,123,181);
+  border-color:  rgb(230,123,181);
+}
+.panel-info > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color:  rgb(230,123,181);
+}
+.panel-info > .panel-heading .badge {
+  color:  rgb(230,123,181);
+  background-color: #fff;
+}
+.panel-info > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color:  rgb(230,123,181);
+}
+
+#cerrarSesion {
+background-color:#fff;
+color: #f66670;
+border:1px solid #f66670;
+}
+
+
+
+/* --- Bloque Superior con datos Cliente ---------------------------- */
+/* --- Utilizado en Panel de Control, etc --- */
+.dashEmpresariaHeader {
+    text-align: center;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+}
+.dashEmpresariaTitle {
+    font-size:2em;
+    font-weight: bold;
+}
+.dashEmpresariaValue {
+    font-size:1.4em;
+    font-weight: bold;    
+}
+.dashEmpresariaHeader.box1 {
+    background: #f996aa;
+    border-bottom: thick solid #fcafbf;
+}
+.dashEmpresariaHeader.box2 {
+     background:#feada9;
+    border-bottom: thick solid #ffcacc;
+}
+.dashEmpresariaHeader.box3 {
+     background: #f89790;
+    border-bottom: thick solid #ffb1ad;
+}
+
+
+/* Carga de Pedidos */
+#main_content {
+	margin-top:30px;
+}
+input#nombrevendedora  {
+margin-left:10px;
+width:400px;
+}
+select#campania {
+width:160px;
+}
+div#AyudaCargaItem {
+display:none;
+}
+#ayuda_container {
+margin-top:10px;
+}
+
+/* Gestion Pedidos */
+.header_pedidos_revendedoras {
+font-size:20px;
+}
+
+
+
+
+/* Login */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+p.forgotPassword {
+padding-top:10px;
+}
+a.primeraVez {
+margin: 0 auto;
+margin-top: 10px;
+max-width: 330px;
+width:300px;
+}
+#errorLogin { display:none; }
+
+
+
+
+
+
+/*  Panel Empresaria  */
+#main_content_Panel_Empresaria {
+	margin-top:40px;
+}
+#cp_vigente { 
+	/* width:200px;*/ 
+}
+#cp_activa_vendedoras {
+font-weight:bold;
+font-size:24px;
+}
+#cambiar_cp_vigente {
+font-size:10px;
+}
+.help , #help_carga_pedido{
+font-weight:normal;
+font-size:12px;
+}
+#subtotal_carga {
+border-top: 2px solid rgb(217, 133, 138);
+}
+#opciones_empresaria  {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.not-as-important{
+font-size:14px;
+}
+.dias_restantes{
+font-size:24px;
+}
+.dias_restantes_small {
+font-size:14px;
+}
+
+/* Personal Info y Registracion Manual */
+#dia , #mes, #anio, 
+#inputTelArea1, #inputTelPrefijo1, #inputTelSufijo1, 
+#inputTelArea2, #inputTelPrefijo2, #inputTelSufijo2, 
+#inputCelArea, #inputCelPrefijo, #inputCelSufijo {
+width:70px;
+}
+
+
+.strong_font {
+font-weight:bold;
+}

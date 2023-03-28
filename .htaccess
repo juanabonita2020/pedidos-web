@@ -1,0 +1,8 @@
+RewriteEngine On
+Options -Indexes
+RewriteBase /pedidosweb/
+RewriteRule ^contenidos/capacitacion/(.*)$ api/download.php?path=contenidos/capacitacion/$1
+RewriteCond %{REQUEST_URI} ^/pedidosweb/api/(contrib|cron|lib|logs)/ [NC]
+RewriteRule ^.*$ - [R=404,L]
+RewriteCond %{HTTPS} on
+RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

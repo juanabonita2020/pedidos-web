@@ -1,0 +1,23 @@
+<div class="row" id="main_content">
+	<div class="panel panel-primary">
+	  <div class="panel-heading">Ayuda</div>
+	  <select id="ayudaTipo">
+	  <option value="">Todas las preguntas</option>
+	  <option value="1">Sólo preguntas de la Empresaria</option>
+	  <option value="2">Sólo preguntas de la Revendedora</option>
+	  <option value="4">Sólo preguntas de la Coordinadora</option>
+	  <option value="5">Sólo preguntas de la Consumidora</option>
+	  <option value="6">Sólo preguntas de la Regional</option>
+	  <option value="7">Sólo preguntas del Anónimo</option>
+	  </select>
+	  <button type="button" class="btn btn-success" id="faqAddBtn" data-toggle="tooltip" data-placement="left" title="Agregar"><span class="glyphicon glyphicon-plus"></span></button>
+	  <div id="addEnv">
+	  <p>Orden<input id="orden" /></p>
+	  <p>Pregunta<textarea id="pregunta"></textarea></p>
+	  <p>Respuesta<textarea id="respuesta"></textarea></p>
+	  <p><input type="checkbox" id="t_empresaria" /> empresaria&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="t_revendedora" /> revendedora&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="t_coordinadora" /> coordinadora&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="t_consumidora" /> consumidora&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="t_regional" /> regional&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="t_anonimo" /> anónimo</p>
+	  <button type="button" class="btn btn-success" id="addBtn2" data-toggle="tooltip" data-placement="left" title="Agregar"><span id="addBtn2Icon" class="glyphicon glyphicon-plus"></span></button>
+	  </div>
+	  <div id="ayudaListado"></div> 
+	</div>
+</div>

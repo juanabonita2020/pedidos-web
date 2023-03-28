@@ -1,0 +1,17 @@
+<div class="row" id="main_content">
+	<div class="panel panel-primary">
+	  <div class="panel-heading">Categorías de capacitación</div>
+	  <form method="post" action="api/modify-capacitacion-cats.php" enctype="multipart/form-data" target="backiframe">
+	  <table class="table table-bordered table-hover">
+		<tr>
+			<th>Título</th>
+			<th>Imagen</th>
+			<th>Orden</th>
+			<th>Acción</th>
+		</tr>
+		<tbody id="ListaCats"></tbody>
+	  </table>
+	  <p align="center"><button class="btn btn-success" name="action" value="save" onclick="$('#waitenv').show();">Guardar</button></p>
+	  </form>
+	</div>
+</div>

@@ -1,0 +1,84 @@
+  <div class="row" id="main_content">
+    <div class="col-md-12" >
+      <div class="panel panel-primary">
+	<div class="panel-heading">
+          <h4 class="panel-title">Controles y Modificaciones</h4>
+	</div>
+	<div class="panel-body">
+	
+	<ul id="amigastab" class="nav nav-pills nav-justified">
+	<li id="tab0" role="presentation" class="active"><a href="Javascript:SISWEB.control.changeTab(0)" class="colorjb">Estado General - Varios</a></li>
+	<li id="tab1" role="presentation"><a href="Javascript:SISWEB.control.changeTab(1)">Consulta x Correo</a></li>
+	<li id="tab2" role="presentation"><a href="Javascript:SISWEB.control.changeTab(2)">Consulta x Zona</a></li>
+	</ul>
+	
+	<div id="tabflds0">
+	
+		<h4>Estado General del Sistema</h4>
+		<table id="tbl1" class="table table-bordered table-hover"></table>
+				
+		<h4>Blanqueo de Contraseña</h4>
+		<table width="100%">
+		<tr><td>Ingrese:</td><td><input type="radio" name="action10o" value="0" checked="checked" /> <input id="zona1" placeholder="Zona" /> <input id="cliente1" placeholder="Cliente" /><br /><input type="radio" name="action10o" value="1" /> <input id="email2" placeholder="Email" /></td></tr>
+		<tr><td>Nueva contraseña:</td><td><input id="pass1" type="password" /></td></tr>
+		<tr><td>Repetir contraseña:</td><td><input id="pass2" type="password" /></td></tr>
+		</table>
+		<p><button class="btn btn-success" id="action10">Guardar</button><p>
+				
+		<h4>Modificación Datos Cliente</h4>
+		<table width="100%">
+		<tr><td>Ingrese:</td><td><input id="zona2" placeholder="Zona" /> <input id="cliente2" placeholder="Cliente" /></td></tr>
+		<tr><td></td><td><input id="dniactual" placeholder="DNI actual" readonly="readonly" /> <input id="dninuevo" placeholder="DNI nuevo" /></td></tr>
+		<tr><td></td><td><input id="emailactual" placeholder="Email actual" readonly="readonly" /> <input id="emailnuevo" placeholder="Email nuevo" /></td></tr>
+		<tr><td></td><td><input id="bajaactual" placeholder="Baja actual" readonly="readonly" /> <input id="bajanuevo" placeholder="Baja nuevo" /></td></tr>
+		</table>
+		<p><button class="btn btn-success" id="action11">Guardar</button><p>
+		
+		<h4>Modificación Usuario</h4>
+		<table width="100%">
+		<tr><td>Ingrese:</td><td><input id="zona4" placeholder="Zona" /> <input id="cliente4" placeholder="Cliente" /></td></tr>
+		<tr><td></td><td><input id="emailactual2" placeholder="Email actual" readonly="readonly" /> <input id="emailnuevo2" placeholder="Email nuevo" /></td></tr>
+		</table>
+		<p><button class="btn btn-success" id="action12">Guardar</button><p>
+		
+	</div>
+	
+	<div id="tabflds1">
+	
+		<h4>Búsqueda por Mail</h4>
+		
+		<p>Ingrese: <input id="email" placeholder="Email" /></p>
+		
+		<h5>Búsqueda base Usuarios</h5>
+		<table id="tbl2" class="table table-bordered table-hover"></table>
+	
+		<h5>Búsqueda base Clientes</h5>
+		<table id="tbl3" class="table table-bordered table-hover"></table>
+		
+		<h5>Intentos de Ingresos al Sistema</h5>
+		<table id="tbl4" class="table table-bordered table-hover"></table>
+	
+	</div>
+	
+	<div id="tabflds2">
+	
+		<h4>Estado de la Zona</h4>
+		<p>Ingrese: <input id="zona3" placeholder="Zona" /> <input id="cliente3" placeholder="Cliente" /></p>
+		
+		<h5>Búsqueda base Clientes e Importación</h5>
+		<table id="tbl5" class="table table-bordered table-hover"></table>
+		<table id="tbl8" class="table table-bordered table-hover"></table>
+				
+		<h5>Ultimos envíos</h5>
+		<table id="tbl6" class="table table-bordered table-hover"></table>
+				
+		<h5>.....</h5>
+		<table id="tbl7" class="table table-bordered table-hover"></table>
+	
+	</div>
+	
+		</div>
+
+      </div>
+    </div>
+  </div>

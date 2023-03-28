@@ -1,0 +1,86 @@
+[01-Dec-2015 21:15:44] PHP Warning:  mktime() expects parameter 6 to be long, string given in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-datos-personales.php on line 43
+[19-Dec-2015 18:18:41] PHP Warning:  Invalid argument supplied for foreach() in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-revendedoras-sin-pedido.php on line 30
+[19-Dec-2015 20:14:44] PHP Fatal error:  Call to a member function prepare() on a non-object in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 219
+[19-Dec-2015 22:21:16] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 219
+[19-Dec-2015 22:22:11] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 219
+[19-Dec-2015 22:22:57] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 219
+[21-Dec-2015 12:03:26] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 222
+[21-Dec-2015 12:06:33] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 222
+[27-Dec-2015 15:51:50] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 251
+[27-Dec-2015 16:24:52] PHP Fatal error:  Unsupported operand types in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-estado-cierre.php on line 15
+[29-Dec-2015 08:49:58] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 264
+[29-Dec-2015 08:50:03] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 264
+[29-Dec-2015 08:52:54] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 264
+[29-Dec-2015 09:56:29] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 264
+[04-Jan-2016 13:12:00] PHP Parse error:  syntax error, unexpected T_IS_EQUAL, expecting ')' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 342
+[12-Jan-2016 11:54:43] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 11:55:53] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 11:56:44] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 12:02:52] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 12:13:39] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 12:13:46] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 13:00:10] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 13:38:09] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 15:18:26] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 66
+[12-Jan-2016 20:41:00] PHP Fatal error:  Class 'JBSYSWEBAPI' not found in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-pedidos.php on line 4
+[12-Jan-2016 20:41:00] PHP Fatal error:  Class 'JBSYSWEBAPI' not found in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-campanias.php on line 4
+[15-Jan-2016 07:39:26] PHP Fatal error:  Call to undefined function  password_hash() in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/dev.php on line 16
+[15-Jan-2016 07:51:40] PHP Fatal error:  Call to private method JBSYSWEBAPI::_hash() from context 'API' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/dev.php on line 16
+[15-Jan-2016 07:52:08] PHP Fatal error:  Call to private method JBSYSWEBAPI::_hash() from context 'API' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/dev.php on line 16
+[15-Jan-2016 07:52:10] PHP Fatal error:  Call to private method JBSYSWEBAPI::_hash() from context 'API' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/dev.php on line 16
+[18-Jan-2016 17:14:01] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/close-pedido.php on line 34
+[18-Jan-2016 17:14:25] PHP Warning:  PDOStatement::execute() [<a href='pdostatement.execute'>pdostatement.execute</a>]: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 281
+[20-Jan-2016 08:14:19] PHP Fatal error:  Class 'JBSYSWEBAPI' not found in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-revendedoras.php on line 4
+[26-Jan-2016 09:03:36] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-faq.php on line 9
+[26-Jan-2016 12:05:12] PHP Parse error:  syntax error, unexpected ')' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-faq.php on line 19
+[27-Jan-2016 09:31:02] PHP Parse error:  syntax error, unexpected '{' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 10
+[27-Jan-2016 09:31:16] PHP Parse error:  syntax error, unexpected '{' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 10
+[27-Jan-2016 09:34:28] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 09:34:28] PHP Parse error:  syntax error, unexpected T_STRING in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 09:35:35] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 09:35:35] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 09:35:35] PHP Parse error:  syntax error, unexpected T_STRING in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 09:36:53] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 09:36:53] PHP Parse error:  syntax error, unexpected T_STRING in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/contrib/password.php on line 93
+[27-Jan-2016 12:15:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php:135
+Stack trace:
+#0 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php(135): PDO->__construct('mysql:dbname=im...', 'imaya_xsprjjbsy...', 'VyA.tK^fB(Lx', Array)
+#1 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/exe.php(7): JBSYSWEBAPI->process()
+#2 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-datos-personales.php(55): require('/home4/imaya/da...')
+#3 {main}
+  thrown in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 135
+[27-Jan-2016 12:15:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php:135
+Stack trace:
+#0 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php(135): PDO->__construct('mysql:dbname=im...', 'imaya_xsprjjbsy...', 'VyA.tK^fB(Lx', Array)
+#1 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/exe.php(7): JBSYSWEBAPI->process()
+#2 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-user-session.php(19): require('/home4/imaya/da...')
+#3 {main}
+  thrown in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 135
+[27-Jan-2016 12:15:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php:135
+Stack trace:
+#0 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php(135): PDO->__construct('mysql:dbname=im...', 'imaya_xsprjjbsy...', 'VyA.tK^fB(Lx', Array)
+#1 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/exe.php(7): JBSYSWEBAPI->process()
+#2 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-user-session.php(19): require('/home4/imaya/da...')
+#3 {main}
+  thrown in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 135
+[27-Jan-2016 12:19:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php:135
+Stack trace:
+#0 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php(135): PDO->__construct('mysql:dbname=im...', 'imaya_xsprjjbsy...', 'VyA.tK^fB(Lx', Array)
+#1 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/exe.php(7): JBSYSWEBAPI->process()
+#2 /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-user-session.php(19): require('/home4/imaya/da...')
+#3 {main}
+  thrown in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/lib/kernel.php on line 135
+[29-Jan-2016 10:15:47 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb/api/get-faq.php on line 20
+[04-Feb-2016 12:45:47 America/Chicago] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb2/api/get-revendedoras.php on line 28
+[04-Feb-2016 12:53:10 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb2/api/lib/kernel.php on line 287
+[04-Feb-2016 13:52:27 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb2/api/lib/kernel.php on line 287
+[04-Feb-2016 18:32:26 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home4/imaya/data/webhosting/xulsol/projects/jbsysweb2/api/get-localidad.php on line 14
+[12-Feb-2016 09:18:49 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/public_html/xsprj.us.to/jbsysweb2/api/lib/kernel.php on line 287
+[12-Feb-2016 09:19:48 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/public_html/xsprj.us.to/jbsysweb2/api/lib/kernel.php on line 287
+[12-Feb-2016 09:22:43 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/public_html/xsprj.us.to/jbsysweb2/api/lib/kernel.php on line 287
+[15-Feb-2016 09:11:50 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/public_html/xsprj.us.to/jbsysweb2/api/lib/kernel.php on line 287
+[15-Feb-2016 18:16:27 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/public_html/xsprj.us.to/jbsysweb2/api/lib/kernel.php on line 287
+[15-Feb-2016 18:18:18 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/imaya/public_html/xsprj.us.to/jbsysweb2/api/lib/kernel.php on line 287
+[04-Apr-2016 14:22:05 America/Chicago] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /home4/imaya/public_html/xsprj.us.to/jbsysweb/api/lib/kernel.php on line 292
+[04-Apr-2016 16:13:57 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home4/imaya/public_html/xsprj.us.to/jbsysweb/api/get-history.php on line 30
+[09-Apr-2016 18:11:28 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/imaya/public_html/xsprj.us.to/jbsysweb/api/notify-pedido-feria.php on line 34

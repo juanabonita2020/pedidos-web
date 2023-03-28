@@ -1,0 +1,39 @@
+  <div class="row" id="main_content">
+    <div class="col-md-12" >
+      <div class="panel panel-primary">
+	<div class="panel-heading">
+          <h3 class="panel-title">Gestión de registración manual</h3>
+	</div>
+	<div class="panel-body">
+
+					<p id="filtervendenv" style="margin:10px">Filtrar:
+						<select id="filterestado">
+							<option value="">Todos los pedidos</option>
+							<option value="NL">Sólo no leídos</option>
+							<option value="L">Sólo leídos</option>
+						</select>
+						<input id="filterzone" placeholder="Zona" size="4" />
+						<input id="filterclient" placeholder="Cliente" size="4" />
+						<input id="filterid" placeholder="ID" size="4" />
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="Javascript:;">Filtrar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="Javascript:;" id="showall">Mostrar todos</a>
+					</p>
+					<table class="table table-bordered table-hover" id="ListaRegistros" style="font-size:.8em">
+						<tr>
+							<th>ID</th>
+							<th id="o1" nowrap="nowrap"><a href="Javascript:;" onclick="SISWEB.gestionRegManual.orderBy(1)">Fecha</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>							
+							<th>Negocio</th>
+							<th>Zona</th>
+							<th>Cliente</th>
+							<th>Causa</th>
+							<th>Respondido</th>
+							<th>Por</th>
+							<th>Acción</th>
+						</tr>
+						<tbody id="ListaPedidosBody"></tbody>
+					 </table>
+
+      </div>
+    </div>
+  </div>

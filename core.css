@@ -1,0 +1,276 @@
+.baja
+{ background:#FFC2C4 }
+
+.waitenv
+{ position:fixed;top:0;left:0;right:0;bottom:0;cursor:wait;z-index:1000;display:none }
+
+#progenv
+{ background-color:rgba(255, 255, 255, .7); }
+
+#progmsg
+{ font-weight:bold }
+
+#progcnt
+{ margin:10% 20%;padding:10px;text-align:center;background:#feada9; }
+
+#progressbar
+{ margin:10px 0 }
+
+#progenv .ui-progressbar
+{ position:relative }
+
+#progenv .progress-label
+{ position:absolute;left:0;right:0;text-align:center;top:4px;font-weight:bold;text-shadow: 1px 1px 0 #fff }
+
+#empresariaHeader, #cerrarSesion_env, #body, #userHeader, body.clean #header, body.clean #footer, #thumbs_env, #ABM_conData, #alert
+{ display:none }
+
+.ui-autocomplete-loading
+{ background:white url("images/ui-anim_basic_16x16.gif") right center no-repeat }
+
+#cataloglst > div, .cataloglst > div
+{ padding:1em }
+
+#cataloglst > div > a:hover, .cataloglst > div > a:hover
+{ text-decoration:none }
+
+#cataloglst > div > a > div, .cataloglst > div > a > div
+{ border:1px solid #ddd;border-radius:4px;position:relative;height:530px;background-repeat:no-repeat;background-position:center top }
+
+#cataloglst > div > a > div > span, .cataloglst > div > a > div > span, .canje > span
+{ background:#000;color:#fff;border-radius:50%;padding:20px 0 0 5px;position:absolute;top:10px;right:10px;width:60px;height:60px }
+
+#cataloglst > div > a > div > p > b, .cataloglst > div > a > div > p > b
+{ position:absolute;background:yellow;color:#000;font-size:.85em;width:70px;display:block;padding:10px;text-align:center;bottom:82px;left:50%;margin-left:-35px;border-radius:0 50% }
+
+#toolbar, #cataloglst > div > a > div > p, #cataloglst > div > a > div > p > span, .cataloglst > div > a > div > p, .cataloglst > div > a > div > p > span, .canje > span
+{ position:absolute }
+
+#toolbar
+{ top:1em;right:1em }
+
+#cataloglst > div > a > div > p, .cataloglst > div > a > div > p
+{ bottom:0;left:0;right:0;height:80px;margin:0;padding:10px }
+
+#cataloglst > div > a > div > p > span, .cataloglst > div > a > div > p > span
+{ top:10px;right:10px;font-size:1.5em }
+
+#cataloglst > div > a > div > p > span > i, .cataloglst > div > a > div > p > span > i
+{ font-size:.8em;text-decoration:line-through;color:red }
+
+/*
+#cataloglst > div > a > div > span
+{ font-size:1.5em;color:#fff;text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black }
+*/
+
+#talls input
+{ width:auto !important }
+
+#catalogItemDets input, #catalogItemDets select
+{ width:100px;margin-bottom:20px }
+
+#version
+{ font-size:.8em;text-align:right }
+
+body.clean, body.clean #body > .container > .row
+{ margin:0 }
+
+body.clean, body.clean #body .container
+{ padding:0 }
+
+body.clean #body .container
+{ max-width:none;width:auto }
+
+#toolbar
+{ z-index:1000 }
+
+#btnCart, #btnZoom, #btnGo
+{ margin-right:20px }
+
+#pgnum
+{ font-size:.8em; }
+
+.magazine .region
+{ background:none }
+
+#envia_agregados, #DetallePedido_x, .DetallePedido_x, #ListaPedidosBodyEmpty, #ListaPedidosBodyEnv, #ListaVendedorasQueNoEmpezaronBodyEmpty, #ListaVendedorasQueNoEmpezaron, #ListaPedidosCerradosEmpty, #ListaPedidosCerrados, #ListaPedidosAbiertos, #ListaPedidosAbiertosEmpty, #ayudaTipo, #addEnv, #DetallePedidoEmpty
+{ display:none }
+
+#ListaPedidosBodyEmpty, #ListaVendedorasQueNoEmpezaronBodyEmpty, #ListaPedidosCerradosEmpty, #ListaPedidosAbiertosEmpty, #ayudaTipo, #DetallePedidoEmpty
+{ margin:10px }
+
+#ListaPedidosBodyEmpty, #ListaVendedorasQueNoEmpezaronBodyEmpty, #ListaPedidosCerradosEmpty, #ListaPedidosAbiertosEmpty, #DetallePedidoEmpty
+{ text-align:center }
+
+#ayudaListado, #addEnv
+{ padding:10px }
+
+#addEnv #orden, #addEnv textarea
+{ display:block }
+
+#addEnv textarea
+{ width:400px;height:200px }
+
+.owl-carousel .item img
+{ display:block;width:100%;height:auto }
+
+#userHeader
+{ margin-bottom:5px }
+
+#main_content
+{ margin-top:5px }
+
+#maincnt
+{ margin-top:5px }
+
+#ListaPedidosCerrados th .glyphicon,
+#ListaZonas th .glyphicon
+{ display:none }
+
+.bootstrap-dialog.danger .modal-body
+{ background-color:#ED4A4A;color:#fff }
+
+.preventa, .preventa:hover td
+{ background-color:#68ED61 !important }
+
+#alert
+{ margin:20px 100px;font-size:16px;font-weight:bold }
+
+.filemanagerrow
+{ text-align:center }
+
+.filemanagerrow b
+{ font-size:0.8em }
+
+.filemanagericon
+{ font-size:3em }
+
+#buscador
+{ border-spacing:5px;border-collapse:separate }
+
+#buscador, #buscador #nombre
+{ width:100% }
+
+#amigastab li a
+{ background-color:#eee }
+
+#amigastab li.active a
+{ background-color:#ec45c7 }
+
+#tabflds0 .table, #tabflds1 .table, #tabflds2 .table
+{ font-size:.8em }
+
+#banner3
+{ margin-bottom:10px }
+
+.capacitaciones a
+{ display:inline-block;height:390px;width:190px;padding:10px 0 0 10px;background-repeat:no-repeat;background-size:contain;color:#fff;font-weight:bold;text-decoration:none;margin:0 10px 10px 0 }
+
+#cataloglst.canje > div > a > div, .cataloglst.canje > div > a > div
+{ background-size:contain;height:300px }
+
+#cataloglst.canje > div > a > div.sel, .cataloglst.canje > div > a > div.sel
+{ border-color:silver;background-color:transparent }
+
+#cataloglst.canje > div > a > div > span, .cataloglst.canje > div > a > div > span, .canje > span
+{ bottom:5px;top:auto;background-color:#585657;font-weight:bold;font-size:.9em;padding:11px 0;text-align:center;z-index:10 }
+
+#cataloglst.canje > div > a > div, #cataloglst2.canje > div > a > div
+{ text-align:center }
+
+#cataloglst.canje > div > a > div > img, #cataloglst2.canje > div > a > div > img
+{ max-height:220px;max-width:100%;margin-top:5px }
+
+#cataloglst.canje > div > a > div.sel > span, .cataloglst.canje > div > a > div.sel > span, .canje.sel > span
+{ background-color:#15B668 }
+
+#cataloglst.canje > div > a > div > p, .cataloglst.canje > div > a > div > p
+{ height:120px;bottom:0;font-weight:bold;text-align:center;padding:5px;font-size:.9em;text-shadow:-1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff }
+
+#cataloglst.canje > div > a > div > b, .cataloglst.canje > div > a > div > b, .canje > b
+{ background:#B9B9B9;color:#fff;bottom:10px;position:absolute;left:15px;width:150px;height:50px;padding:10px 20px 0 10px;display:block;line-height:15px;text-align:center;border-radius:5px;text-transform:uppercase }
+
+#cataloglst.canje > div > a > div.sel > b, .cataloglst.canje > div > a > div.sel > b, .canje > b
+{ padding-right:30px }
+
+#cataloglst.canje > div > a > div > i, .cataloglst.canje > div > a > div > i, #cataloglst.canje > div > i
+{ font-style:normal;text-transform:uppercase;display:block;text-align:center;background:#000;padding:15px 0;margin-top:-130px;font-size:1.2em;opacity:.6;color:#fff;font-weight:bold }
+
+#cataloglst.canje > div > i
+{ margin-top:140px }
+
+#catalogpts_env
+{ background:white url("images/cuadro_puntos.jpg");text-align:center;border:4px solid;font-size:2em;line-height:15px;padding:50px 0;height:190px;overflow:hidden;color:#fff }
+
+#catalogpts
+{ margin:20px 0 }
+
+#catalogpts_env a
+{ font-size:.5em }
+
+#catalogptsp
+{ font-size:.6em }
+
+#maintmode
+{ display:none;padding:20px; }
+
+#canjebanner
+{ height:240px;background-repeat:no-repeat }
+
+#cataloglst #catalogpts_env
+{ font-size:2em;text-align:center }
+
+#cataloglst #catalogpts_env a
+{ font-size:.5em }
+
+.canje > span
+{ left:230px }
+
+.canje > b
+{ left:100px }
+
+.footer
+{ height:auto }
+
+#userHeaderNotice div
+{ text-align:center;color:red;font-weight:bold }
+
+.premiomul
+{ background-position-x:center;height:230px;background-repeat:no-repeat;background-size:contain;padding:190px 0 0 0 }
+
+.premiomul p
+{ text-align:center;width:100%;font-size:1.2em }
+
+@media (max-width: 991px)
+{
+
+.dashEmpresariaHeader.box1,
+.dashEmpresariaHeader.box2,
+.dashEmpresariaHeader.box3
+{ float:left }
+
+.dashEmpresariaHeader.box1
+{ width:40% }
+
+.dashEmpresariaHeader.box2,
+.dashEmpresariaHeader.box3
+{ width:30% }
+
+.header h3 img
+{ width:150px }
+
+}
+
+@media (max-width: 500px)
+{
+
+#userHeader
+{ font-size:.7em }
+
+.dashEmpresariaTitle
+{ font-size:1.8em }
+
+.header .nav-pills li a
+{ padding:5px }
+
+}

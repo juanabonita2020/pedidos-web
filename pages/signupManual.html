@@ -1,0 +1,79 @@
+<h3 class="">Formulario de Registración Manual</h3>
+<form id="registracion_manual" class="form-horizontal" role="form">
+<div class="panel panel-default">
+  <div class="panel-heading">Por favor complete la siguiente información</div>
+  <div class="panel-body">
+
+	  <div class="form-group">
+		<div class="col-sm-8 col-sm-offset-2 alert alert-danger text-center  " role="alert"><h3>Registracion Fallida</h3><span id="errorMsg"></span><br />
+		<!--La registración no pudo completarse debido a que algunos datos suminstrados no coinciden con los datos de nuestro sistema.-->
+		Si desea intentarlo nuevamente, haga <a href="#signup">click aqui</a>.</div>
+	  </div>
+
+	  <div class="form-group">
+		<label for="inputName" class="col-sm-4 control-label">Nombre</label>
+		<div class="col-sm-6 ">
+		  <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Nombre">
+		</div>
+	  </div>
+
+
+
+	<div class="form-group">
+		<label for="inputLastName" class="col-sm-4 control-label">Apellido</label>
+		<div class="col-sm-6">
+		  <input type="text" class="form-control" name="inputLastName" id="inputLastName" placeholder="Apellido">
+		</div>
+	  </div>
+
+	<div class="form-group form-inline">
+		<label for="inputTel1" class="col-sm-4 control-label">Teléfono de Contacto</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" name ="inputTel1" id="inputTel1" placeholder="Teléfono de Contacto" data-toggle="tooltip" data-placement="right" title="Ejemplo:(011) 6871-0701 o (03327) 44-3601">
+		</div>
+	  </div>
+
+
+
+	<div class="form-group">
+		<label for="inputEmail" class="col-sm-4 control-label">E-Mail</label>
+		<div class="col-sm-6">
+		  <input type="text" class="form-control" name="inputEmail" id="inputEmail" placeholder="E-Mail">
+		</div>
+	  </div>
+
+
+	  <div class="form-group">
+		<label for="inputZona" class="col-sm-4 control-label">N&ordm; de Zona</label>
+		<div class="col-sm-6">
+		  <input type="text" class="form-control" name="inputZona" id="inputZona" placeholder="N&ordm; de Zona" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+		</div>
+	  </div>
+
+	  <div class="form-group">
+		<label for="inputCliente" class="col-sm-4 control-label">N&ordm; de Cliente</label>
+		<div class="col-sm-6">
+		  <input type="text" class="form-control" name="inputCliente" id="inputCliente" placeholder="N&ordm; de Cliente" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+		</div>
+	  </div>
+
+
+	    <div class="form-group">
+		<label for="inputDNI" class="col-sm-4 control-label">DNI</label>
+		<div class="col-sm-6 ">
+		  <input type="text" class="form-control" name="inputDNI" id="inputDNI" placeholder="DNI" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+		</div>
+	  </div>
+
+
+	  </div>
+
+
+
+
+
+	</div>
+</div>
+      <button class="btn btn-lg btn-primary btn-block CustomButton1" type="button" id="signupBtn">Terminar</button>
+		<div class="clearfix"></div>
+</form>

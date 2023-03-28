@@ -1,0 +1,170 @@
+<h4 id="successReg" style="display:none;background-color:#75E997;text-align:center;padding:10px;margin:0 100px">Registración exitosa</h4>
+
+<h3 class="">Datos Personales</h3>
+<form method="post" id="datos_personales" class="form-horizontal" role="form" onsubmit="return SISWEB.personalInfo.save();">
+<div class="panel panel-default">
+  <div class="panel-heading">Actualiza tus Datos personales</div>
+  <div class="panel-body">
+
+	  <div class="form-group">
+		<label for="inputName" class="col-sm-3 control-label">Nombre</label>
+		<div class="col-sm-9 ">
+		  <input type="text" class="form-control" name ="inputName" id="inputName" placeholder="Nombre" required="required">
+
+		</div>
+	  </div>
+
+	<div class="form-group">
+		<label for="inputLastName" class="col-sm-3 control-label">Apellido</label>
+		<div class="col-sm-9">
+		  <input type="text" class="form-control" name ="inputLastName" id="inputLastName" placeholder="Apellido" required="required">
+		</div>
+	  </div>
+
+	  <div class="form-group form-inline">
+		<label for="inputTel1" class="col-sm-3 control-label">Telefono Fijo</label>
+		<div class="col-sm-9">
+			(<input type="text" class="form-control" name ="inputTel1a" id="inputTel1a" placeholder="Area" data-toggle="tooltip" data-placement="right" title="Código de área sin paréntesis" size="2" maxlength="5" />)
+			<input type="text" class="form-control" name ="inputTel1p" id="inputTel1p" placeholder="Prefijo" data-toggle="tooltip" data-placement="right" title="Prefijo" size="5" maxlength="4" />
+			-
+			<input type="text" class="form-control" name ="inputTel1s" id="inputTel1s" placeholder="Sufijo" data-toggle="tooltip" data-placement="right" title="Sufijo" size="5" maxlength="4" />
+		</div>
+	  </div>
+
+
+	  <div class="form-group  form-inline">
+		<label for="inputTel2" class="col-sm-3 control-label">Telefono Fijo Adicional</label>
+		<div class="col-sm-9">
+			(<input type="text" class="form-control" name ="inputTel2a" id="inputTel2a" placeholder="Area" data-toggle="tooltip" data-placement="right" title="Código de área sin paréntesis" size="2" maxlength="5" />)
+			<input type="text" class="form-control" name ="inputTel2p" id="inputTel2p" placeholder="Prefijo" data-toggle="tooltip" data-placement="right" title="Prefijo" size="5" maxlength="4" />
+			-
+			<input type="text" class="form-control" name ="inputTel2s" id="inputTel2s" placeholder="Sufijo" data-toggle="tooltip" data-placement="right" title="Sufijo" size="5" maxlength="4" />
+		</div>
+	  </div>
+
+
+	  <div class="form-group  form-inline">
+		<label for="inputCel" class="col-sm-3 control-label">Telefono Movil</label>
+		<div class="col-sm-9">
+			(<input type="text" class="form-control" name ="inputCela" id="inputCela" placeholder="Area" data-toggle="tooltip" data-placement="right" title="Código de área sin paréntesis" size="2" maxlength="5" />)
+			<input type="text" class="form-control" name ="inputCelp" id="inputCelp" placeholder="Prefijo" data-toggle="tooltip" data-placement="right" title="Prefijo" size="5" maxlength="4" />
+			-
+			<input type="text" class="form-control" name ="inputCels" id="inputCels" placeholder="Sufijo" data-toggle="tooltip" data-placement="right" title="Sufijo" size="5" maxlength="4" />
+		</div>
+	  </div>
+
+
+	  <div class="form-group">
+		<label for="inputAddress" class="col-sm-3 control-label">Direccion</label>
+		<div class="col-sm-9">
+		  <input type="text" class="form-control" name="inputAddress" id="inputAddress" placeholder="Direccion" required="required">
+		</div>
+	  </div>
+
+	  <div class="form-group  form-inline">
+		<label for="inputCel" class="col-sm-3 control-label">Altura</label>
+		<div class="col-sm-1">
+		<input type="text" class="form-control" name ="inputAltura" id="inputAltura" placeholder="Altura" data-toggle="tooltip" data-placement="right" size="5" maxlength="4" />
+		</div>
+
+		<label for="inputPiso" class="col-sm-2 control-label">Piso</label>
+		<div class="col-sm-1">
+		<input type="text" class="form-control" name ="inputPiso" id="inputPiso" placeholder="Piso" data-toggle="tooltip" data-placement="right" size="5" maxlength="4" />
+		</div>
+
+		<label for="inputDepto" class="col-sm-2 control-label">Depto</label>
+		<div class="col-sm-1">
+		<input type="text" class="form-control" name ="inputDepto" id="inputDepto" placeholder="Depto" data-toggle="tooltip" data-placement="right" size="5" maxlength="4" />
+		</div>
+	</div>
+
+	  <div class="form-group form-inline">
+		<label for="inputCodigoPostal" class="col-sm-3 control-label">Cod. Postal</label>
+		<div class="col-sm-9">
+		  <input type="text" class="form-control" name="inputCodigoPostal" id="inputCodigoPostal" placeholder="Codigo Postal" required="required">
+		</div>
+	  </div>
+
+	  <div class="form-group form-inline">
+		<label for="inputBarrio" class="col-sm-3 control-label">Barrio</label>
+		<div class="col-sm-9">
+		  <input type="text" class="form-control" name="inputBarrio" id="inputBarrio" placeholder="Barrio">
+		</div>
+	  </div>
+
+	   <div class="form-group">
+		<label for="inputPais" class="col-sm-3 control-label">País</label>
+		<div class="col-sm-9">
+
+		<select class="form-control" name="inputPais" id="inputPais" required="required"><option></option></select>
+		</div>
+	  </div>
+
+	   <div class="form-group">
+		<label for="inputProvincia" class="col-sm-3 control-label" id="provinciaLabel">Provincia</label>
+		<div class="col-sm-9">
+
+		<select class="form-control" name="inputProvincia" id="inputProvincia" required="required"><option></option></select>
+		</div>
+	  </div>
+
+	   <div class="form-group">
+		<label for="inputLocalidad" class="col-sm-3 control-label" id="localidadLabel">Localidad</label>
+		<div class="col-sm-9">
+		<input type="text" class="form-control" name ="inputLocalidad" id="inputLocalidad" placeholder="Localidad" data-toggle="tooltip" data-placement="right" />
+		</div>
+	  </div>
+
+
+	  <div class="form-group form-inline ">
+		<label for="inputFechaNacimiento" class="col-sm-3 control-label ">Fecha Nacimiento</label>
+		<div class="col-sm-9">
+		  <input id="inputFechaNacimiento" type="text" class="form-control" name="inputFechaNacimiento"  placeholder="dd/mm/aaaa" required="required" data-toggle="tooltip" data-placement="right" title="Ejemplo:05/10/1978 para el 5 de Oct. de 1978">
+	  </div>
+	  </div>
+
+	  <div class="form-group form-inline ">
+		<label for="inputTiene_instagram" class="col-sm-3 control-label ">Tiene Instagram</label>
+		<div class="col-sm-9">
+		<select class="form-control" name="inputInstagram" id="inputInstagram" required="required"><option value="SI">SI</option><option value="NO" selected>NO</option></select>
+		 <input type="text" class="form-control" name ="inputUsuarioInstagram" id="inputUsuarioInstagram" placeholder="Usuario Instagram">
+		</div>
+	  </div>
+
+	  <div class="form-group form-inline ">
+		<label for="inputTiene_instagram" class="col-sm-3 control-label ">Tiene Facebook</label>
+		<div class="col-sm-9">
+		<select class="form-control" name="inputFacebook" id="inputFacebook" required="required"><option value="SI">SI</option><option value="NO" selected>NO</option></select>
+		 <input type="text" class="form-control" name ="inputUsuarioFacebook" id="inputUsuarioFacebook" placeholder="Usuario Facebook">
+		</div>
+	  </div>
+
+	   <div class="form-group">
+		<label for="inputSOMovil" class="col-sm-3 control-label">Tipo de Teléfono</label>
+		<div class="col-sm-9">
+		<select class="form-control" name="inputSOMovil" id="inputSOMovil" required="required"><option></option></select>
+		</div>
+	  </div>
+
+
+
+	<div class="form-group form-inline ">
+		<label class="col-sm-3 control-label ">Alertas</label>
+		<div class="col-sm-9">
+			<p>Selecciones las alertas por e-mail que desea recibir:</p>
+		  <input id="inputCloseAlert" name="inputCloseAlert" type="checkbox" class="form-control"> Al cerrar un pedido
+	  </div>
+	  </div>
+
+
+
+
+
+	</div>
+</div>
+ <button class="btn btn-lg btn-primary btn-block CustomButton1" type="submit" id="saveBtn">Guardar</button>
+</form>
+
+
+
+		<div class="clearfix"></div>

@@ -1,0 +1,19 @@
+<div class="row" id="main_content">
+	<div class="panel panel-primary">
+	  <div class="panel-heading">Listado de banners</div>
+	  <form method="post" action="api/modify-banners.php" enctype="multipart/form-data" target="backiframe">
+	  <table class="table table-bordered table-hover">
+		<tr>
+			<th>Espacio</th>
+			<th>Campaña</th>
+			<th>Desde/Hasta</th>
+			<th>Fichero</th>
+			<th>Enlace</th>
+			<th>Acción</th>
+		</tr>
+		<tbody id="ListaBanners"></tbody>
+	  </table>
+	  <p align="center"><button class="btn btn-success" name="action" value="save" onclick="$('#waitenv').show();">Guardar</button></p>
+	  </form>
+	</div>
+</div>

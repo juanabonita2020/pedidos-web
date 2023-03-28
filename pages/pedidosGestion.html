@@ -1,0 +1,140 @@
+	<!-- BLOQUE PRINCIPAL -->
+	<div class="row" id="main_content">
+
+		<div id="ListaPedidosCerradosEnv" class="panel panel-primary"> <!-- Panel con pedidos Cerrados-->
+
+		  <div class="panel-heading header_pedidos_revendedoras">Pedidos de tus Revendedoras</div>
+
+		  <div class="panel-body text-center">
+			<p>Lista de todos los pedidos que han sido cargados y cerrados por tus revendedoras. Ellas ya no pueden realizar mas cambios.
+				<br>Recuerda que debes autorizar los mismos antes de hacer el envio.
+			</p>
+		  </div>
+
+
+		  <table class="table table-bordered table-hover" id="ListaPedidosCerrados">
+
+			<tbody id="ListaPedidosCerradosBody"></tbody>
+			<!--<tfoot>
+				<tr>
+				<td></td>
+				<td class="text-center"><strong>Total:</strong> </td>
+				<td class="text-center"><strong id="ListaPedidosCerradosQ">--</strong></td>
+				<td class="text-center"><strong id="ListaPedidosCerradosTotal">--</strong></td>
+				<td></td>
+			</tr>
+			</tfoot>-->
+
+		  </table>
+		  <p id="ListaPedidosCerradosEmpty">No hay ningún registro para mostrar.</p>
+
+		   <!--<div class="panel-footer text-center"><button type="button" class="btn btn-success" id="sendBtn">Enviar Pedidos a la Empresa</button></div>-->
+
+		</div> <!-- Cierra Panel con pedidos Cerrados-->
+
+
+
+	<div class="panel panel-primary">
+	  <div class="panel-heading">
+		<h3 class="panel-title">Informacion Adicional</h3>
+	  </div>
+	  <div class="panel-body">
+
+
+			<div class="panel panel-info">
+			  <div class="panel-heading">
+				<h3 class="panel-title">Vendedoras Cargando Pedidos</h3>
+			  </div>
+			  <div class="panel-body">
+				<p class="text-center">Las siguientes vendedoras han comenzado a cargar pedidos, pero aun no han cerrado los mismos.<br>
+				   Si los consideras necesario, tu puedes darlos por terminados para realizar tu ultimo envio a la empresa.</p>
+			  </div>
+				<table class="table table-bordered table-hover" id="ListaPedidosAbiertos">
+
+				<tr>
+					<th>Nro. Cliente</th>
+					<th>Campaña</th>
+					<th>Nombre</th>
+					<th class="text-center">Unidades</th>
+					<th class="text-center">Valor</th>
+					<th>Acciones</th>
+				</tr>
+				<tbody id="ListaPedidosAbiertosBody"></tbody>
+				<tfoot>
+				<tr>
+				<td></td>
+				<td></td>
+				<td class="text-center"><strong>Total:</strong> </td>
+				<td class="text-center"><strong id="ListaPedidosAbiertosQ">--</strong></td>
+				<td class="text-center"><strong id="ListaPedidosAbiertosTotal">--</strong></td>
+				<td><button type="button" class="btn btn-success" id="closeAll">Cerrar todos</button></td>
+			</tr>
+			</tfoot>
+
+			  </table>
+			  <p id="ListaPedidosAbiertosEmpty">No hay ningún registro para mostrar.</p>
+
+			</div>
+
+			<div id="ListaVendedorasQueNoEmpezaronEnv" class="panel panel-info">
+			  <div class="panel-heading">
+				<h3 class="panel-title ">Listado de Vendedoras Registradas</h3>
+			  </div>
+			  <div class="panel-body">
+				<p>Las siguientes vendedoras han pasado pedido online en las ultimas campañas y aun no han empezado a cargar su pedido.</p>
+				<p class="help-block">Utiliza este listado para reactivar tus vendedoras y evitar salteos de campaña.</p>
+
+			  </div>
+
+			  <table class="table table-bordered table-hover" id="ListaVendedorasQueNoEmpezaron">
+
+				<tr>
+					<th>Ultima cargada</th>
+					<th>Nro. Cliente</th>
+					<th>Nombre</th>
+					<!--<th>Ultima Campaña Activa</th>				-->
+				</tr>
+				<tbody id="ListaVendedorasQueNoEmpezaronBody"></tbody>
+			  </table>
+				<p id="ListaVendedorasQueNoEmpezaronBodyEmpty">No hay ningún registro para mostrar.</p>
+
+
+			</div>
+
+			<div id="ListaVendedorasQueNoEmpezaronEnv2" class="panel panel-info">
+			  <div class="panel-heading">
+				<h3 class="panel-title ">Listado de Vendedoras No Registradas</h3>
+			  </div>
+			  <div class="panel-body">
+				<p>Le has cargado su pedido a las siguientes vendedoras en campañas pasadas, y en esta campaña aun no le cargaste pedido.</p>
+				<p class="help-block">Utiliza este listado para saber a quien te falta cargarle pedido y para reactivar vendedoras que han salteado de campaña.</p>
+
+			  </div>
+
+			  <table class="table table-bordered table-hover" id="ListaVendedorasQueNoEmpezaron2">
+
+				<tr>
+					<th>Ultima cargada</th>
+					<th>Nro. Cliente</th>
+					<th>Nombre</th>
+					<!--<th>Ultima Campaña Activa</th>				-->
+				</tr>
+				<tbody id="ListaVendedorasQueNoEmpezaronBody2"></tbody>
+			  </table>
+				<p id="ListaVendedorasQueNoEmpezaronBodyEmpty2">No hay ningún registro para mostrar.</p>
+
+
+			</div>
+	  </div>
+	</div>
+
+
+
+
+
+	  </div>
+	</div>
+
+
+
+	</div>

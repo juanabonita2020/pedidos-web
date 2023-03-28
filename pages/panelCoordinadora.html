@@ -1,0 +1,170 @@
+	<div class="row" id="main_content_Panel_Empresaria">
+
+
+		<div class="col-md-9" >
+
+			<div id="banner3" class="owl-carousel owl-theme"></div>
+
+			<div class="panel panel-primary"><!-- Panel, con panel adentro -->
+			  <div class="panel-heading">
+				<h3 class="panel-title">Tus pedidos</h3>
+			  </div>
+			  <div class="panel-body"><!-- aca adentro va el contenido del primer panel -->
+
+				<div class="panel panel-info"><!-- Este es el panel interno -->
+
+				  <div class="panel-heading">Pedidos Abiertos:</div>
+				<!-- Este es el contenido del panel interno, no tiene panel-body, va directo la TABLA para que quede "seamless" -->
+					<table class="table table-bordered table-hover" id="ListaPedidosBodyEnv">
+						<tr>
+							<th>Campaña</th>
+							<th>Fecha Inicio</th>
+							<th>Cargado por</th>
+							<th>Unidades</th>
+							<th>Acciones</th>
+							<!--<th>Autorizar <abbr class="help" data-toggle="tooltip" data-placement="right"  title="Aqui puedes bloquear el acceso a quienes desees">(?)</abbr></th>-->
+						</tr>
+						<tbody id="ListaPedidosBody"></tbody>
+
+					 </table>
+					 <p id="ListaPedidosBodyEmpty">No hay ningún registro para mostrar.</p>
+				</div><!-- cierra el panel interno -->
+
+			<div class="panel panel-primary"><!-- Panel, con panel adentro -->
+			  <div class="panel-heading">
+				<h3 class="panel-title">Tus Estadisticas</h3>
+			  </div>
+			  <div class="panel-body"><!-- aca adentro va el contenido del primer panel -->
+
+				<div class="panel panel-info"><!-- Este es el panel interno -->
+
+				  <div class="panel-heading">Carga de Pedidos :</div>
+
+				<!-- Este es el contenido del panel interno, no tiene panel-body, va directo la TABLA para que quede "seamless" -->
+					<table class="table">
+						<tr><td>Pedidos En Proceso De Carga:</td><td class="text-right"><span id="pedidos_en_proceso_de_carga">--</span></td></tr>
+						<tr><td>Pedidos Entregados Aun No Autorizados:</td><td  class="text-right"><span id="pedidos_en_entregados">--</span></td></tr>
+						<tr><td>Pedidos Autorizados:</td><td  class="text-right"><span id="pedidos_autorizados">--</span></td></tr>
+						<tr id="subtotal_carga"><td><strong>Total de Pedidos:</strong></td><td  class="text-right"><span id="total_pedidos"><strong>--</strong></span></td></tr>
+					 </table>
+				</div><!-- cierra el panel interno -->
+
+
+
+			  </div> <!-- cierra el body del panel principal-->
+			</div> <!-- cierra el panel principal -->
+
+
+		<div class="panel panel-primary">
+		  <div class="panel-heading">
+			<h3 class="panel-title">Opciones</h3>
+		  </div>
+		  <div class="panel-body">
+
+
+		    <div class="list-group">
+			  <a href="#pedidosCarga" class="list-group-item " id="loadOrder">
+				<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-list-alt"></span> Cargar un Pedido Nuevo</h4>
+				<p class="list-group-item-text">Propio o de una de tus revendedoras.</p>
+			  </a>
+
+			  <a href="#pedidosGestion" class="list-group-item " id="opciones_empresaria">
+				<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-th-list"></span> Administrar Pedidos</h4>
+				<p class="list-group-item-text">Gestiona todos los pedidos de tus vendedoras.</p>
+			  </a>
+
+			    <a href="JavaScript:JavaScript:SISWEB._goComunidad(0);" class="list-group-item " id="opciones_empresaria13">
+			<h4 class="list-group-item-heading"><img src="images/logo-comunidad.jpg" height="20" /> Comunidad Juana Bonita</h4>
+			<small class="list-group-item-text">Canjeá tus premios, conocé tus estadísticas y hojeá los catalogos de premios.</small>
+			</a>
+
+			  <!--
+			    <a href="#cms/promo-verano" class="list-group-item " id="opciones_empresaria">
+			<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-book"></span> Catálogo de Premios: Promo Verano Juana</h4>
+			<small class="list-group-item-text">Hojea el Catálogo de Premios de la Promo Verano Juana</small>
+			</a>
+
+			  <a href="#catalogo/liquidaciononline" class="list-group-item " id="opciones_empresaria">
+				<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-shopping-cart"></span> Liquidación Online</h4>
+				<p class="list-group-item-text">Compra los mismos productos a los mejores precios.</p>
+			  </a>-->
+
+			  <a href="#historial" class="list-group-item " id="opciones_empresaria">
+				<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-calendar"></span> Historial de Pedidos</h4>
+				<p class="list-group-item-text">Visualiza tus pedidos anteriores.</p>
+			  </a>
+
+
+			  <!--<a href="#magazine" class="list-group-item " id="opciones_empresaria">
+				<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-shopping-cart"></span> Revista virtual</h4>
+				<p class="list-group-item-text">Arma el pedido desde la revista virtual.</p>
+			  </a>-->
+
+		  	<a href="#mensajes" class="list-group-item " id="opciones_empresaria">
+				<h4 class="list-group-item-heading"><span class="glyphicon glyphicon-envelope"></span> Mensajes y Notificaciones</h4>
+				<p class="list-group-item-text">Revisa las notificaciones que te envía Juana Bonita aquí.</p>
+			</a>
+
+
+			  <a href="#capacitaciones" class="list-group-item " id="opciones_empresaria12">
+              <h4 class="list-group-item-heading"><span class="glyphicon glyphicon-info-sign"></span> Catálogos, JTC y Capacitaciones</h4>
+		<small class="list-group-item-text">Contenidos de capacitaciones para Ud.</small>
+            </a>
+
+			 <a href="#amigas" class="list-group-item " id="opciones_empresaria13">
+              <h4 class="list-group-item-heading"><span class="glyphicon glyphicon-stats"></span> Promo Verano - Trae a tu Amiga</h4>
+		<small class="list-group-item-text">Conoce el estado de tus indicaciones de la Promo Verano.</small>
+            </a>
+
+			  <a href="#personalInfo" class="list-group-item " id="opciones_empresaria">
+				<h5 class="list-group-item-heading"><span class="glyphicon glyphicon-user"></span> Modifica tus Datos Personales</h5>
+				<p class="list-group-item-text">Ayudanos a estar siempre al dia con tu informacion de contacto.</p>
+			  </a>
+
+			  <a href="#passwordChange" class="list-group-item " id="opciones_empresaria">
+				<h5 class="list-group-item-heading"><span class="glyphicon glyphicon-lock"></span> Modifica tu contraseña</h5>
+				<p class="list-group-item-text">Elige una nueva contraseña.</p>
+			  </a>
+
+
+			</div>
+
+
+
+		  </div>
+		</div>
+
+		</div>
+		</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="panel  panel-primary text-center" id="cp_vigente" >
+			  <div class="panel-heading ">Campaña Vigente
+			  </div>
+			  <div class="panel-body ">
+				<span id="cp_activa_vendedoras">--</span>  <abbr class="help" title="La campaña en la cual tus Vendedoras cargaran su pedido">(?)</abbr><br>
+			  </div>
+			</div>
+
+			<div class="panel  panel-red text-center" id="envia_agregados" >
+			  <div class="panel-heading ">¡Envia tus agregados!
+			  </div>
+			  <div class="panel-body ">
+				<span class="dias_restantes_small">Tienes solo</span><br>
+				<span id="dias_restantes" class="dias_restantes">--</span><br>
+				<span class="dias_restantes_small">para enviar tus agregados</span>
+
+			  </div>
+			</div>
+
+			<div id="banner1" class="owl-carousel owl-theme"></div>
+			<div id="banner2" class="owl-carousel owl-theme"></div>
+
+
+		</div>
+
+
+
+
+	</div>

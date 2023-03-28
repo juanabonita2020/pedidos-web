@@ -1,0 +1,885 @@
+-------- Versión 1.3 --------
+
+* 1.3.16 MAYO 2020
+- Visualización de capacitaciones en pantalla modal
+- Nuevos sistemas para los flyers.
+- Ficheros modificados
+	pages/capacitacion.js
+	pages/capacitacion.html
+	pages/flyers.html
+	pages/flyers.js
+	api/get-flyers.php
+	api/get-capacitacion.php
+	api/add-capacitacion.php
+	api/modify-capacitacion.php
+
+* 1.3.15 FEBRERO 2020
+- Correción bug en cálculo de la cantidad de muestrario pendiente
+- Ficheros modificados
+	api/lib/kernel.php
+
+* 1.3.14 DICIEMBRE 2019
+- Bonificación de puntos en el canje de premios
+- Ficheros modificados
+	pages/canje.js
+	api/canje-ptos.php
+	api/get-pto-catalogo.php
+
+* 1.3.13 NOVIEMBRE 2019
+- Detección de cambio de versión.
+- Ficheros modificados
+	core.js
+
+* 1.3.12 OCTUBRE 2019
+- Arreglo de varios bugs.
+- Modificación al formulario de datos personales.
+- Adaptación a otros paises.
+- Ficheros modificados
+	pages/pedidosGestion.js
+	pages/personalInfo.html
+	pages/personalInfo.js
+	pages/panelEmpresaria.js
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.js
+	pages/panelRegional.js
+	pages/panelRevendedora.js
+	api/save-datos.personales.php
+	api/get-datos.personales.php
+	api/get-user-session.php
+	api/get-pais.php
+	api/get-amigas.php
+	api/get-SOMovil.php
+	api/get-provincias.php
+	api/get-localidad.php
+	api/lib/kernel.php
+	core.js
+
+* 1.3.11 ABRIL 2019
+- Nuevo esquema de puntaje de amigas
+- Ficheros modificados
+	pages/amigas.js
+	api/get-amiga-detalle.php
+	api/lib/chgCamp.php
+
+* 1.3.10 MARZO 2019
+- Modificación en consulta de movimientos de amigas
+- Flyers dinámicos y asociados a acciones del usuario
+- Ficheros modificados
+	pages/flyers.js
+	pages/pedidosGestion.js
+	api/get-amigas.php
+	api/get-page.php
+	api/get-flyers.php
+	api/close-pedido.php
+	api/send-cierre.php
+	api/lib/chgStatus.php
+	core.js
+
+* 1.3.9 MARZO 2019
+- Programa de premios múltiples
+- Ficheros modificados
+	pages/pedidosCarga.js
+	pages/pedidosCarga.html
+	pages/canje.js
+	pages/canje.html
+	api/get-campania.php
+	api/save-premiosmul.php
+	api/get-pto-catalogo.php
+	core.css
+
+* 1.3.8 MARZO 2019
+- Guardar IP en cabecera y detalle de pedidos
+- Ficheros modificados
+	api/lib/chgStatus.php
+
+* 1.3.7 FEBRERO 2019
+- Mensaje de incentivo de unidades para lograr premios
+- Ficheros modificados
+	pages/pedidosCarga.js
+	pages/pedidosCarga.html
+	api/get-campania.php
+	api/lib/kernel.php
+
+* 1.3.6 ENERO 2019
+- Programa de premios de incentivo
+- Ficheros modificados
+	pages/pedidosCarga.html
+	pages/pedidosCarga.js
+	api/get-campania.php
+	api/add-pedido-item.php
+	api/lib/kernel.php
+
+* 1.3.5 SEPTIEMBRE 2018
+- Guardar IP en cabecera y detalle de pedidos
+- Login líderes
+- Términos y condiciones
+- Ficheros nuevos:
+	api/login-lideres.php
+- Ficheros modificados
+	pages/panelEmpresaria.html
+	pages/panelEmpresaria.js
+	pages/comunidad.html
+	api/add-pedido-item.php
+	api/change-pedido-campania.php
+	api/close-pedido.php
+	api/delete-pedido.php
+	api/disable-campania.php
+	api/migrar-cliente.php
+	api/modify-pedido-item.php
+	api/restore-pedido.php
+	api/send-cierre.php
+	api/lib/chgStatus.php
+	api/lib/kernel.php
+	api/framework/core.php
+
+* 1.3.4 AGOSTO 2018
+- Nuevo modelo de premios
+- Reorganización del framework
+- Ficheros modificados:
+	api/get-campania.php
+	api/add-pedido-item.php
+	api/lib/kernel.php
+	pages/pedidosCarga.html
+	pages/pedidosCarga.js
+
+* 1.3.3 MAYO 2018
+- Limitar la cantidad de unidades de un ítem por pedido
+- Al eliminar un ítem del pedido, no borrarlo del registro
+- API para migrar las órdenes de clientes
+- Blaqueo de contraseña por email
+- Servicio para migrar clientes
+- Ficheros modificados:
+	api/send-cierre.php
+	api/disable-campania.php
+	api/close-pedido.php
+	api/change-pedido-campania.php
+	api/add-pedido-item.php
+	api/migrar-cliente.php
+	api/login-user-account.php
+	api/admin-control.php
+	api/lib/kernel.php
+	pages/pedidosCarga.js
+	pages/control.js
+	pages/control.html
+
+* 1.3.2 DICIEMBRE 2017
+- Usuarios divisionales
+- En reg. manual sólo permitir números en DNI, Email y Zona
+- En Gestión de Reg. Manual poder filtrar por cliente y ordenar por fecha
+- Chequeo de pedidos duplicados
+- Ficheros modificados:
+	api/add-regional.php
+	api/update-regional.php
+	api/get-regionales.php
+	api/login-user-account.php
+	api/get-region-stats.php
+	api/get-region-users.php
+	api/get-region-migracion.php
+	api/add-capacitacion.php
+	api/modify-capacitacion.php
+	api/get-capacitacion.php
+	api/get-reg-manual.php
+	api/get-pedido.php
+	api/lib/kernel.php
+	pages/gestionRegionales.js
+	pages/panelAdministrador.html
+	pages/panelRegional.html
+	pages/panelRegional.js
+	pages/regionalUsuarios.html
+	pages/regionalUsuarios.js
+	pages/avancesZonas.html
+	pages/avancesZonas.js
+	pages/avanceMigracion.html
+	pages/avanceMigracion.js
+	pages/capacitacion.html
+	pages/capacitacion.js
+	pages/signupManual.html
+	pages/gestionRegManual.js
+	pages/gestionRegManual.html
+	index.php
+	core.js
+
+* 1.3.1 SEPTIEMBRE 2017
+- Al cargar pedido precargar campaña activa para la empresaria
+- Ficheros modificados:
+	api/register-contacto.php
+	api/register-user-account.php
+	pages/pedidosCarga.js
+	pages/signup.js
+	pages/signupManual.js
+
+* 1.3.0 SEPTIEMBRE 2017
+- Considerar el sistema en los flyers
+- Poder cargar pedidos para varias campañas al mismo tiempo
+- Opción de armar pedidos con ítems en cuotas
+- Insertar campaña de la zona al iniciar sesión si esta no existe
+- Bug: al restaurar un pedido creaba envíos sin zona
+- Bug: al desactivar una campaña no podía determinar el sistema
+- Ficheros modificados:
+	api/get-page.php
+	api/get-pedido.php
+	api/add-pedido-item.php
+	api/get-campanias.php
+	api/restore-pedido.php
+	api/get-articulo.php
+	api/modify-pedido-item.php
+	api/disable-campania.php
+	api/get-muestrario-pend.php
+	api/get-reg-manual.php
+	api/lib/kernel.php
+	pages/pedidosCarga.html
+	pages/pedidosCarga.js
+	pages/campaigns.js
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.html
+	pages/panelRevendedora.html
+	pages/gestionRegManual.html
+	pages/gestionRegManual.js
+	index.php
+	core.css
+	core.js
+
+-------- Versión 1.2 --------
+
+* 1.2.21 JULIO 2017
+- Mostrar reportes de pedidos de clientes eliminados
+- Ficheros modificados:
+	api/get-history.php
+	api/get-users.php
+	api/get-revendedoras-sin-pedido.php
+	api/get-pedidos.php
+	pages/historial.js
+	core.js
+
+* 1.2.20 JUNIO 2017
+- Modo mantenimiento
+- Manejar sistemas de campañas de 12 y 18 meses
+- Manejar errores en el envío de correos
+- Productos "proximamente" en canje
+- Estadísticas de acceso a contenidos
+- Ficheros modificados:
+	api/cron/sendmail.php
+	api/cron/changecamp.php
+	api/lib/kernel.php
+	api/lib/chgCamp.php
+	api/lib/getAttrib.php
+	api/login-user-account.php
+	api/add-pedido-item.php
+	api/change-pedido-campania.php
+	api/get-articulo-feria-detalle.php
+	api/get-articulo.php
+	api/get-history.php
+	api/get-muestrario-pendiente.php
+	api/get-pedido.php
+	api/get-capacitacion.php
+	api/modify-campania.php
+	api/modify-relevamiento.php
+	api/notify-pedido-feria.php
+	api/send-cierre.php
+	api/change-campania.php
+	api/get-region-stats.php
+	api/get-pedidos.php
+	api/get-flyers.php
+	api/modify-flyers.php
+	api/get-pto-catalogo.php
+	pages/campaigns.html
+	pages/campaigns.js
+	pages/flyers.html
+	pages/flyers.js
+	pages/login.html
+	pages/login.js
+	pages/canje.js
+	pages/panelAdministrador.html
+	pages/clientesGestion.html
+	pages/clientesGestion.js
+	core.css
+	core.js
+	index.php
+- Ficheros nuevos:
+	api/get-status.php
+	api/get-stats.php
+	api/download.php
+	pages/stats.html
+	pages/stats.js
+	.htaccess
+
+* 1.2.19 MAYO 2017
+- Al cargar un pedido alertar al usuario sobre pedidos ya enviados
+- Poder actualizar únicamente los talles de un pedido
+- Ficheros modificados:
+	api/get-pedido.php
+	api/add-pedido-item.php
+	pages/pedidosCarga.js
+
+* 1.2.18 MARZO 2017
+- Catálogo de canje de puntos
+- Capacitación para regionales Deli y Empresaria
+- Ficheros modificados:
+	index.php
+	core.css
+	api/lib/kernel.php
+	api/login-user-account.php
+	api/get-regionales.php
+	api/update-regional.php
+	api/add-regional.php
+	api/get-capacitacion.php
+	api/modify-capacitacion.php
+	api/add-capacitacion.php
+	api/get-publicidad.php
+	api/get-amigas.php
+	api/get-amigas-detalle.php
+	pages/gestionRegionales.html
+	pages/gestionRegionales.js
+	pages/capacitacion.html
+	pages/capacitacion.js
+	pages/panelAdministrador.html
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.html
+	pages/panelRegional.html
+	pages/panelRevendedora.html
+	pages/amigas.html
+	pages/amigas.js
+- Ficheros nuevos:
+	pages/canje.html
+	pages/canje.js
+	pages/comunidad.js
+	pages/comunidad.html
+	api/get-pto-catalogo.php
+	api/canje-ptos.php
+	api/get-cliente.php
+
+* 1.2.17 FEBRERO 2017
+- Categorías en los contenidos de capacitación
+- Ficheros modificados:
+	index.php
+	core.js
+	core.css
+	api/get-capacitacion.php
+	api/modify-capacitacion.php
+	api/add-capacitacion.php
+	api/admin-control.php
+	pages/capacitacion.html
+	pages/capacitacion.js
+	pages/panelCoordinadora.html
+	pages/panelEmpresaria.html
+	pages/panelRegional.html
+	pages/panelRevendedora.html
+- Ficheros nuevos:
+	api/get-capacitacion-cats.php
+	api/modify-capacitacion-cats.php
+	pages/capacitacionCat.html
+	pages/capacitacionCat.js
+	pages/capacitaciones.html
+	pages/capacitaciones.js
+
+* 1.2.16 ENERO 2017
+- Modificación al proceso de recuperar pedidos
+- Pantalla "Controles y modificaciones"
+- Bug en el envío de correos
+- Página de prueba de envío de correos
+- Nuevo banner superior
+- Nuevo sistema de premios
+- Ficheros modificados:
+	index.php
+	core.js
+	core.css
+	api/restore-pedido.php
+	api/get-region-users.php
+	api/get-amigas.php
+	api/get-amiga-detalle.php
+	api/send-cierre.php
+	api/test-sendmail.php
+	api/get-page.php
+	api/admin-control.php
+	api/cron/sendmail.php
+	api/lib/kernel.php
+	pages/panelAdministrador.html
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.html
+	pages/panelRevendedora.html
+	pages/capacitacion.js
+	pages/amigas.html
+	pages/amigas.js
+	pages/pedidosGestion.html
+	pages/signup.html
+	pages/signup.js
+- Ficheros nuevos:
+	api/admin-control.php
+	pages/control.html
+	pages/control.js
+	pages/testSendmail.html
+	pages/testSendmail.js
+
+* 1.2.15 (Etapa 8) DICIEMBRE 2016
+- Página de "Resultados Promo Verano"
+- En la registración verificar que la zona tenga empresaria creada
+- Ficheros modificados:
+	index.php
+	core.css
+	api/lib/kernel.php
+	api/register-user-account.php
+	api/get-revendedoras.php
+	pages/avanceMigracion.html
+	pages/panelCoordinadora.html
+	pages/panelEmpresaria.html
+	pages/panelRegional.html
+	pages/panelRevendedora.html
+	pages/signup.js
+- Ficheros nuevos:
+	api/get-amigas.php
+	pages/amigas.html
+	pages/amigas.js
+
+* 1.2.14 (Etapa 8) NOVIEMBRE 2016
+- Agregar un administrador de ficheros
+- Hacer configurable el tiempo de sesión
+- Paginado y ordenación por defecto en gestión de publicidad
+- Sección de capacitación
+- Ficheros modificados:
+	index.php
+	kernel.php
+	core.css
+	api/get-publicidad.php
+	api/modify-banners.php
+	pages/panelAdministrador.html
+	pages/panelCoordinadora.html
+	pages/panelEmpresaria.html
+	pages/panelRegional.html
+	pages/panelRevendedora.html
+	pages/banners.html
+	pages/banners.js
+- Ficheros nuevos:
+	api/filemanager.php
+	api/add-capacitacion.php
+	api/modify-capacitacion.php
+	api/delete-capacitacion.php
+	api/get-capacitacion.php
+	pages/ficheros.html
+	pages/ficheros.js
+	pages/capacitacion.html
+	pages/capacitacion.js
+
+* 1.2.13 (Etapa 8) NOVIEMBRE 2016
+- Corrección de bug: no se actualizaba bien la cabecera al desactivar una campaña
+- Agregar página de contenidos estáticos (CMS)
+- Agregar enlaces a los banners de publicidad
+- Ordenar listado de sugerencia de revendedoras
+- Ficheros modificados:
+	index.php
+	core.js
+	api/disable-campania.php
+	api/modify-banners.php
+	api/get-publicidad.php
+	api/get-revendedoras.php
+	pages/panelAdministrador.html
+	pages/panelRevendedora.html
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.html
+	pages/panelRegional.html
+	pages/banners.html
+	pages/banners.js
+- Ficheros nuevos:
+	pages/cms.html
+	pages/cms.js
+
+* 1.2.12 (Etapa 8) OCTUBRE 2016
+- Mejorar el envío masivo de acciones sobre pedidos
+- Agregar cuenta de email a la alerta a la hora de enviar a cierre una zona bloqueada
+- Cambiar asunto de email al enviar a cierre
+- Cambiar asunto de email al cerrar el pedido
+- En gestión de pedidos marcar las vendedoras cargando pedidos que están dadas de baja
+- Agregar filtro de campaña al historial de pedidos
+- Modificar la página de contraseña reseteada
+- Página con listado de envíos bloqueados
+- Cambios en la registración manual
+- Ficheros modificados:
+	core.js
+	core.css
+	index.php
+	api/send-cierre.php
+	api/close-pedido.php
+	api/get-pedidos.php
+	api/get-history.php
+	api/get-cierre.php
+	api/send-reg-manual.php
+	api/get-reg-manual.php
+	api/get-datos-personales.php
+	api/login-user-account.php
+	pages/pedidosGestion.js
+	pages/historial.js
+	pages/historial.html
+	pages/newPass.html
+	pages/newPass.js
+	pages/panelAdministrador.html
+	pages/gestionRegManual.js
+	pages/personalInfo.js
+- Ficheros nuevos:
+	api/get-envios-bloqueados.php
+	api/alta-usuario.php
+	api/get-reg-manual-msgs.php
+	pages/enviosBloqueados.html
+	pages/enviosBloqueados.js
+
+* 1.2.11 (Etapa 8) SEPTIEMBRE 2016
+- Cartel de aviso cuando el usuario se encuentra inhabilitado
+- Recuperar pedidos descartados
+- Eliminar puntos de un pedido al descartarlo para el envío
+- Mostrar si un usuario está bloqueado en el Listado de Usuarios Registrados del panel de la regional
+- Llevar la cantidad de unidades de preventa que tiene un ítem del pedido
+- Posibilidad de mostrar mensajes en pantalla a los usuarios
+- Ficheros modificados:
+	core.js
+	core.css
+	index.php
+	api/login-user-account.php
+	api/get-user-session.php
+	api/send-cierre.php
+	api/get-region-users.php
+	api/disable-campania.php
+	api/get-datos-personales.php
+	api/delete-pedido.php
+	api/add-pedido-item.php
+	api/change-pedido-campania.php
+	api/modify-relevamiento.php
+	api/lib/kernel.php
+	pages/login.js
+	pages/panelAdministrador.html
+	pages/regionalUsuarios.html
+	pages/regionalUsuarios.js
+	pages/pedidosCarga.js
+- Ficheros nuevos:
+	api/restore-pedido.php
+	api/get-page.php
+	api/ocultar-flyer.php
+	api/get-flyers.php
+	api/modify-flyer.php
+	api/remove-flyer.php
+	pages/restorePedido.html
+	pages/restorePedido.js
+	pages/flyers.html
+	pages/flyers.js
+
+* 1.2.10 (Etapa 8) SEPTIEMBRE 2016
+- Mostrar los talles del premio en las pantallas de detalle del pedido
+- Marcar los ítems cargados antes de una fecha determinada
+- Cambio automático de campaña
+- Bug al registrarse usuario
+- Cambios en el correo a enviar tras envío a cierre de un usuario bloqueado
+- Poder enviar emails a varios destinatarios al mismo tiempo
+- Ficheros modificados:
+	core.js
+	core.css
+	api/change-campania.php
+	api/get-campanias.php
+	api/get-pedido.php
+	api/send-cierre.php
+	api/register-user-account.php
+	api/lib/kernel.php
+	api/cron/changecamp.php
+	pages/pedidosCarga.js
+
+* 1.2.9 (Etapa 8) SEPTIEMBRE 2016
+- Pantalla de gestión de registración manual
+- No solicitar contraseña actual al cambiarla
+- Poder modificar la campaña de un pedido
+- Recordar al usuario el email de ingreso
+- Evitar el envío de pedidos de usuarios que estén en baja
+- Mejoras en la pantalla modal de confirmación
+- Corrección de bug de último cierre
+- Cambios en avisos de advertencia al enviar a cierre un envío
+- Bloquear empresaria y campaña al cargar el primer ítem del pedido
+- Ficheros modificados:
+	index.php
+	core.js
+	core.css
+	api/register-contacto.php
+	api/change-password.php
+	api/get-campanias.php
+	api/send-cierre.php
+	api/add-pedido-item.php
+	api/get-pedido.php
+	api/remove-pedido-item.php
+	api/lib/kernel.php
+	pages/login.html
+	pages/panelAdministrador.html
+	pages/passwordChange.html
+	pages/passwordChange.js
+	pages/pedidosGestion.js
+	pages/pedidosCarga.js
+- Ficheros nuevos:
+	api/get-reg-manual.php
+	api/send-reg-manual.php
+	api/change-pedido-campania.php
+	api/recover-user.php
+	pages/gestionRegManual.html
+	pages/gestionRegManual.js
+	pages/userRecover.html
+	pages/userRecover.js
+
+* 1.2.8 (Etapa 8) AGOSTO 2016
+- Realizar el envío de emails en modo "batch"
+- Notificar al usuario cuando no haya campañas disponibles
+- Poder activar/desactivar el envío de correos a nivel global
+- Poder activar/desactivar a nivel de usuario las alarmas de pedidos cerrado
+- Llevar un log de los intentos de inicio de sesión
+- Posibilidad de desactivar servicios de la API
+- Cambiar mensaje de mínimos al cerrar pedido
+- Quitar condición de pedido "rechazado" al eliminar un item del pedido
+- Ficheros modificados:
+	core.js
+	api/close-pedido.php
+	api/get-datos-personales.php
+	api/save-datos-personales.php
+	api/login-user-account.php
+	api/remove-pedido-item.php
+	api/lib/kernel.php
+	pages/personalInfo.html
+	pages/personalInfo.js
+	pages/pedidosCarga.js
+	pages/campaniaChange.js
+- Ficheros nuevos:
+	api/lib/cron.php
+	api/cron/sendmail.php
+
+* 1.2.7 (Etapa 7)
+- En publicidad sólo guardar el nombre del fichero sin ruta
+- Ficheros modificados:
+	core.js
+	api/modify-banners.php
+	pages/banners.js
+
+* 1.2.6 (Etapa 7)
+- Limitar el ingreso de DNI al registarse a sólo números
+- Bloquear inicio de sesión a usuarios cuyo cliente ya no exista
+- Bug: al registrarse no redirigía a mis datos personales
+- Ficheros modificados:
+	api/login-user-account.php
+	api/register-user-account.php
+	pages/signup.html
+	pages/login.js
+	pages/signup.js
+
+* 1.2.5 (Etapa 7)
+- Agregar filtros a la página de avance de migración
+- Bug en la paginación que hacía las consultas pesadas
+- Ficheros modificados:
+	api/get-region-migracion.php
+	api/get-region-stats.php
+	api/get-region-users.php
+	api/get-history.php
+	api/get-users.php
+	api/lib/kernel.php
+	pages/avanceMigracion.html
+	pages/avanceMigracion.js
+
+* 1.2.4 (Etapa 6)
+- Dar mayor información a la registración manual
+- Dar mayor información al inicio de sesión
+- Mostrar estado del pedido en el historial de pedidos
+- Ficheros modificados:
+	api/register-user-account.php
+	api/register-contacto.php
+	api/login-user-account.php
+	api/get-history.php
+	pages/signup.js
+	pages/signupManual.js
+	pages/signupManual.html
+	pages/login.js
+	pages/historial.html
+	pages/historial.js
+
+* 1.2.3 (Etapa 6)
+- No permitir registrarse con contraseñas de menos de 6 caracteres
+- Permitir al usuario regional modificar su contraseña
+- Actualización de íconos de menú de paneles
+- Poder modificar la contraseña maestra de la regional desde su panel
+- Ficheros modificados:
+	api/lib/kernel.php
+	api/change-password.php
+	api/change-clave-maestra.php
+	api/save-datos-personales.php
+	api/add-regional.php
+	api/get-pedido.php
+	pages/signup.js
+	pages/passwordChange.js
+	pages/panelRegional.html
+	pages/panelAdministrador.html
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.html
+	pages/gestionRegionales.html
+	pages/gestionRegionales.js
+	pages/claveMaestra.js
+
+* 1.2.2 (Etapa 5)
+- Cambios y pantallas nuevas en el panel de regional
+- No permitir registro manual a mismos usuarios dentro de las 24hs
+- Búsqueda de localidad "case insensitive"
+- Ficheros modificados:
+	api/lib/kernel.php
+	api/get-region-stats.php
+	api/register-contacto.php
+	api/register-user-account.php
+	api/login-user-account.php
+	api/get-localidad.php
+	pages/panelRegional.html
+	pages/panelRegional.js
+	pages/clientesGestion.js
+	pages/signupManual.js
+	index.php
+	core.js
+	core.css
+- Ficheros nuevos:
+	api/get-region-users.php
+	api/get-region-migracion.php
+	pages/avancesZonas.html
+	pages/avancesZonas.js
+	pages/avanceMigracion.html
+	pages/avanceMigracion.js
+	pages/regionalUsuarios.html
+	pages/regionalUsuarios.js
+
+* 1.2.1 (Etapa 5)
+- Posibilidad de ingresar a cuentas utilizando clave maestra global y de regional
+- Corrección de encoding en nombres de clientes, empresarias y regionales
+- Correciones varias en el email de cierre de pedido
+- Ficheros modificados:
+	api/login-user-account.php
+	api/get-revendedoras.php
+	api/get-empresarias.php
+	api/get-region-stats.php
+	api/get-regionales.php
+	api/get-users.php
+	api/get-history.php
+	api/get-revendedoras-sin-pedido.php
+	api/get-pedido.php
+	api/update-regional.php
+	api/close-pedido.php
+	api/lib/kernel.php
+	pages/gestionRegionales.js
+	pages/gestionRegionales.html
+	pages/panelAdministrador.html
+	index.php
+- Ficheros nuevos:
+	api/change-clave-maestra.php
+	pages/claveMaestra.html
+	pages/claveMaestra.js
+
+* 1.2.0 (Etapa 5)
+- En listados de revendedoras sin pedido sólo considerar campañas menor a la campaña actual de la zona
+- En listados de revendedoras sin pedido agregar listado de revendedoras no registradas
+- En historial de pedidos agregar columna con campaña del pedido
+- En historial de pedidos poder filtrar por cliente
+- En historial de pedidos agregar paginación
+- En gestión de usuarios agregar paginación
+- En gestión de usuarios poder filtrar por cliente
+- En gestión de usuarios mostrar usuarios no registrados
+- En gestión de usuarios mostrar columna con fecha de último pedido
+- Verificar el tipo de producto al agregarlo a muestrario
+- Poder configurar el email de notificación al enviar o cerrar pedido
+- Cambiar mensajes en feria web
+- En feria web agregar teléfono a los datos del consumidor
+- Gestionar los banners desde el administrador
+- Mejorar el uso de tab/enter en la carga de pedidos
+- Ficheros modificados:
+	api/get-revendedoras-sin-pedido.php
+	api/get-history.php
+	api/get-users.php
+	api/get-pedidos.php
+	api/send-cierre.php
+	api/close-pedido.php
+	api/referer.php
+	api/modify-pedido-item.php
+	api/add-pedido-item.php
+	api/get-publicidad.php
+	api/notify-pedido-feria.php
+	api/referer.php
+	api/get-datos-personales.php
+	api/get-faq.php
+	api/modify-faq.php
+	api/add-faql.php
+	api/lib/kernel.php
+	pages/pedidosGestion.html
+	pages/pedidosGestion.js
+	pages/historial.html
+	pages/historial.js
+	pages/clientesGestion.html
+	pages/clientesGestion.js
+	pages/catalogo.js
+	pages/catalogo.html
+	pages/pedidosCarga.js
+	pages/pedidosCarga.html
+	pages/banners.html
+	pages/banners.js
+	pages/panelAdministrador.html
+	pages/faq.html
+	pages/faq.js
+	core.js
+	core.css
+	index.html
+
+-------- Versión 1.1 --------
+
+* 1.1.0 (Etapa 4)
+- Considerar los envíos disponible al mostrar las campañas disponibles
+- Mejorar la búsqueda de empresarias al cargar el pedido
+- Modificación de la base de datos para guardar los precios unitarios y puntos
+- Gestión de espacios de publicidad
+- Enlace de volver atrás
+- Etiquetas de productos nuevos o de últimas unidades en feria
+- Gestión de relevamiento de catálogos
+- Autocompletar localidad en formulario de registro
+- Cambiar dirección del pie de página
+- Bugs varios
+
+-------- Versión 1.0 --------
+
+* 1.0.2 (Etapa 4)
+- Recordar los datos del cliente final en feria web
+- Autocompletar campos en registración manual
+- Corregir el encabezado para resoluciones bajas
+- Cambiar "(feria)" por un ícono con tooltip
+- Bugs varios
+- Ficheros modificados:
+	core.css
+	core.js
+	api/get-user-session.php
+	pages/signup.js
+	pages/signupManual.js
+	pages/pedidosCarga.js
+
+* 1.0.1 (Etapa 4)
+- Mostrar mensaje en listados vacíos
+- Página de ayuda
+- Utilizar funciones estándar para el hashing de las contraseñas
+- Bugs varios
+- Ficheros modificados:
+	index.html
+	core.js
+	core.css
+	lib/kernel.php
+	api/login-user-account.php
+	api/get-pedidos.php
+	pages/panelEmpresaria.html
+	pages/panelCoordinadora.html
+	pages/pedidosGestion.html
+	pages/pedidosGestion.js
+	pages/panelAdministrador.html
+	pages/panelRevendedora.html
+	pages/historial.html
+	pages/historial.js
+	pages/clientesGestion.html
+	pages/clientesGestion.js
+	pages/pedidosCarga.html
+	pages/pedidosCarga.js
+- Ficheros nuevos:
+	api/get-faq.php
+	api/add-faq.php
+	api/modify-faq.php
+	api/delete-faq.php
+	api/contrib/password.php
+	pages/faq.html
+	pages/faq.js
+	pages/gestionFaq.html
+	pages/gestionFaq.js
+
+* 1.0.0 (Etapas 1, 2 y 3)

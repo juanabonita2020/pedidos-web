@@ -1,0 +1,50 @@
+  <div class="row" id="main_content">
+    <div class="col-md-12" >
+      <div class="panel panel-primary">
+	<div class="panel-heading">
+          <h4 class="panel-title">Comunidad Juana - Estadísticas</h4>
+	</div>
+	<div class="panel-body">
+	
+	<ul id="amigastab" class="nav nav-pills nav-justified">
+	<li id="tab0" role="presentation" class="active"><a href="Javascript:SISWEB.amigas.changeTab(0)" class="colorjb">Tus resultados</a></li>
+	<li id="tab1" role="presentation"><a href="Javascript:SISWEB.amigas.changeTab(1)">Terceros</a></li>
+	</ul>
+	<br />
+	
+	<table id="buscador" cellpadding="1" cellspacing="1" style="display:none">
+	<tr><td><input type="radio" value="0" name="buscar" onclick="SISWEB.amigas.changeSearch(0)" checked="checked" /> Buscar por Zona y Cliente</td><td><input id="zona" placeholder="Zona" /> <input id="cliente" placeholder="Cliente" /></td></tr>
+	<tr><td><input type="radio" value="1" name="buscar" onclick="SISWEB.amigas.changeSearch(1)" /> Buscar por Nombre</td><td><input id="nombre" placeholder="Nombre" disabled="disabled" /></td></tr>
+	</table>
+	
+	<div class="panel panel-info">
+		  <div class="panel-heading">Resumen</div>
+			<table class="table"><tbody id="estados">
+				<tr><td>Puntos Pendientes:</td><td class="text-right"><span id="total_pend">0</span></td></tr>
+				<tr><td>Puntos Efectivas:</td><td class="text-right"><span id="total_efec">0</span></td></tr>
+				<tr><td>Puntos Canjeadas:</td><td class="text-right"><span id="total_canj">0</span></td></tr>
+				<tr><td>Puntos Cancelados:</td><td class="text-right"><span id="total_perd">0</span></td></tr>
+				<tr><td>Puntos Disponibles:</td><td class="text-right"><span id="total_disp">0</span></td></tr>
+			 </tbody></table>
+		</div>
+	
+	  <div class="panel panel-info">
+		  <div class="panel-heading">Historial</div>
+			<table class="table table-bordered table-hover" id="ListaResultados" style="font-size:.8em">
+				<tr>
+					<th style="text-align:center;vertical-align:middle">Campaña Alta</th>
+					<th style="text-align:center;vertical-align:middle">Zona</th>
+					<th style="text-align:center;vertical-align:middle">Clienta</th>
+					<th style="text-align:center;vertical-align:middle">Nombre</th>
+					<th style="text-align:center;vertical-align:middle">Concepto</th>
+					<th style="text-align:center;vertical-align:middle">Valor</th>
+					<th style="text-align:center;vertical-align:middle">Estado</th>
+					<th style="text-align:center;vertical-align:middle">Detalle</th>
+				</tr>
+				<tbody id="ListaResultadosBody"></tbody>
+			 </table>
+		</div>
+
+      </div>
+    </div>
+  </div>

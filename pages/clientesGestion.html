@@ -1,0 +1,35 @@
+
+	<!-- BLOQUE PRINCIPAL -->
+	<div class="row" id="main_content">
+
+		<div class="panel panel-primary"> <!-- Panel con pedidos Cerrados-->
+
+		  <div class="panel-heading header_pedidos_revendedoras">Listado de Revendedoras</div>
+
+		  <div class="panel-body text-center">
+			<p>Listado con todas tus revendedoras que utilizan el sistema de Pedidos Web.</p>
+		  </div>
+		  <p id="filtervendenv" style="margin:10px">Filtrar por cliente: <input id="filtervend" /> <a href="Javascript:;">Filtrar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Javascript:;" id="listshowall">Mostrar todos</a></p>
+
+		  <table class="table table-bordered table-hover" id="ListaPedidosCerrados">
+
+			<tr>
+				<th id="o1"><a href="Javascript:;" onclick="SISWEB.clientesGestion.orderBy(1)">Fecha últ. carga</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+				<th>Nro. Cliente</th>
+				<th id="o2"><a href="Javascript:;" onclick="SISWEB.clientesGestion.orderBy(2)">Nombre</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+				<th id="o4"><a href="Javascript:;" onclick="SISWEB.clientesGestion.orderBy(4)">E-mail</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+				<!--<th>Acciones</th>-->
+				<th id="o3"><a href="Javascript:;" onclick="SISWEB.clientesGestion.orderBy(3)">Estado</a> <span class="glyphicon glyphicon-chevron-down"></span><span class="glyphicon glyphicon-chevron-up"></span></th>
+				<th>Autorizar <abbr class="help" data-toggle="tooltip" data-placement="right"  title="Aqui puedes bloquear el acceso a quienes desees">(?)</abbr></th>
+				<th>Ordenes</th>
+			</tr>
+			<tbody id="ListaUsuariosBody"></tbody>
+
+		  </table>
+
+		<p id="ListaPedidosBodyEmpty">No hay ningún registro para mostrar.</p>
+
+
+		</div> <!-- Cierra Panel con Listado de Revendedoras-->
+
+	</div>

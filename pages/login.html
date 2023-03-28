@@ -1,0 +1,20 @@
+<div id="maintmode" class="alert-danger text-center" role="alter">
+<h3>El sistema se encuentra en modo mantenimiento.</h3>
+</div>
+
+<form id="login_form" class="form-signin" role="form" method="post" onsubmit="return false;">
+<h3 class="form-signin-heading">Iniciar Sesión</h3>
+<input name="inputEmail" id="inputEmail" type="email" class="form-control" placeholder="E-Mail" required autofocus oninvalid="this.setCustomValidity('Por favor complete este campo.')">
+<input name="inputPassword" id="inputPassword"  type="password" class="form-control" placeholder="Contrase&ntilde;a" oninvalid="this.setCustomValidity('Por favor complete este campo.')">
+	<!--
+	<label class="checkbox">
+		<input type="checkbox" value="remember-me">Recordarme
+	</label>
+	-->
+<button type="button" id="login" class="btn btn-lg btn-primary btn-block">Ingresar</button>
+<a href="#signup" class="primeraVez  btn btn-primary btn-lg btn-success" role="button" >Primera vez</a>
+</div>
+<div class="clearfix"></div>
+<p class="forgotPassword text-center"><a href="#passwordRecover">Olvidé mi Contrase&ntilde;a</a><br /><a href="#userRecover">Olvidé mi Usuario</a></p>
+<div id="errorLogin" class="alert alert-warning alert-dismissible" role="alert">
+</form>

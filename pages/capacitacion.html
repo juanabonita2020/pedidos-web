@@ -1,0 +1,35 @@
+<div class="row" id="main_content">
+	<div class="panel panel-primary">
+	  <div class="panel-heading">Capacitación</div>
+	  <select id="ayudaTipo">
+	  <option value="">Todas las capacitaciones</option>
+	  <option value="1">Sólo capacitaciones de la Empresaria</option>
+	  <option value="2">Sólo capacitaciones de la Revendedora Empresaria</option>
+	  <option value="9">Sólo capacitaciones de la Revendedora Deli</option>
+	  <option value="4">Sólo capacitaciones de la Coordinadora</option>
+	  <option value="5">Sólo capacitaciones de la Consumidora</option>
+	  <option value="6">Sólo capacitaciones de la Regional Deli</option>
+	  <option value="10">Sólo capacitaciones de la Regional Empresaria</option>
+	  <option value="8">Sólo capacitaciones de la Líder</option>
+	  <option value="11">Sólo capacitaciones del Divisional</option>
+	  <option value="7">Sólo capacitaciones del Anónimo</option>
+	  </select>
+	  <select id="sistemaTipo"></select>
+	  <button type="button" class="btn btn-success" id="faqAddBtn" data-toggle="tooltip" data-placement="left" title="Agregar"><span class="glyphicon glyphicon-plus"></span></button>
+	  <button type="button" class="btn" id="catsBtn" data-toggle="tooltip" data-placement="left" title="Categorías">Categorías</button>
+	  <div id="addEnv" class="row">
+		<div class="col-sm-6">
+		  <p>Orden<input id="orden" /></p>
+		  <p>Categoría<br /><select id="cat"></select></p>
+		  <p>Título<textarea id="titulo"></textarea></p>
+		  <p>Contenido<textarea id="contenido"></textarea></p>
+			<button type="button" class="btn btn-success" id="addBtn2" data-toggle="tooltip" data-placement="left" title="Agregar"><span id="addBtn2Icon" class="glyphicon glyphicon-plus"></span></button>
+		</div>
+		<div class="col-sm-6">
+			<p><input type="checkbox" id="t_empresaria" /> empresaria<br /><input type="checkbox" id="t_lider" /> líder<br /><input type="checkbox" id="t_revendedora" /> revendedora empresaria<br /><input type="checkbox" id="t_revdeli" /> revendedora deli<br /><input type="checkbox" id="t_coordinadora" /> coordinadora<br /><input type="checkbox" id="t_consumidora" /> consumidora<br /><input type="checkbox" id="t_regional" /> regional deli<br /><input type="checkbox" id="t_regional_e" /> regional empresaria<br /><input type="checkbox" id="t_division" /> divisional<br /><input type="checkbox" id="t_anonimo" /> anónimo</p>
+			<p id="sistemas"></p>
+		</div>
+	  </div>
+	  <div id="ayudaListado"></div>
+	</div>
+</div>
